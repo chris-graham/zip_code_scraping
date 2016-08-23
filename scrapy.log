@@ -1,0 +1,1281 @@
+2016-08-22 01:41:42 [scrapy] INFO: Scrapy 1.1.1 started (bot: zip_code)
+2016-08-22 01:41:42 [scrapy] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'zip_code.spiders', 'ROBOTSTXT_OBEY': True, 'CONCURRENT_REQUESTS': 8, 'SPIDER_MODULES': ['zip_code.spiders'], 'BOT_NAME': 'zip_code', 'LOG_FILE': 'scrapy.log', 'DOWNLOAD_DELAY': 3}
+2016-08-22 01:41:42 [scrapy] INFO: Enabled extensions:
+['scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.corestats.CoreStats']
+2016-08-22 01:41:42 [scrapy] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.chunked.ChunkedTransferMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2016-08-22 01:41:42 [scrapy] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2016-08-22 01:41:42 [scrapy] INFO: Enabled item pipelines:
+[]
+2016-08-22 01:41:42 [scrapy] INFO: Spider opened
+2016-08-22 01:41:42 [scrapy] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2016-08-22 01:41:42 [scrapy] DEBUG: Telnet console listening on 127.0.0.1:6024
+2016-08-22 01:41:43 [scrapy] DEBUG: Crawled (200) <GET https://www.melissadata.com/robots.txt> (referer: None)
+2016-08-22 01:41:45 [scrapy] DEBUG: Crawled (200) <GET https://www.melissadata.com/lookups/CountyZip.asp?State=DE10Delaware> (referer: None)
+2016-08-22 01:41:47 [scrapy] DEBUG: Crawled (200) <GET https://www.melissadata.com/lookups/countyzip.asp?state=10005> (referer: https://www.melissadata.com/lookups/CountyZip.asp?State=DE10Delaware)
+2016-08-22 01:41:50 [scrapy] DEBUG: Crawled (200) <GET https://www.melissadata.com/lookups/countyzip.asp?state=10003> (referer: https://www.melissadata.com/lookups/CountyZip.asp?State=DE10Delaware)
+2016-08-22 01:41:50 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.melissadata.com/lookups/countyzip.asp?fips=00000> - no more duplicates will be shown (see DUPEFILTER_DEBUG to show all duplicates)
+2016-08-22 01:41:53 [scrapy] DEBUG: Crawled (200) <GET https://www.melissadata.com/lookups/countyzip.asp?state=10001> (referer: https://www.melissadata.com/lookups/CountyZip.asp?State=DE10Delaware)
+2016-08-22 01:41:58 [scrapy] DEBUG: Crawled (200) <GET https://www.melissadata.com/lookups/countyzip.asp?fips=00000> (referer: https://www.melissadata.com/lookups/countyzip.asp?state=10005)
+2016-08-22 01:41:58 [scrapy] INFO: Closing spider (finished)
+2016-08-22 01:41:58 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 2644,
+ 'downloader/request_count': 6,
+ 'downloader/request_method_count/GET': 6,
+ 'downloader/response_bytes': 18482,
+ 'downloader/response_count': 6,
+ 'downloader/response_status_count/200': 6,
+ 'dupefilter/filtered': 2,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2016, 8, 22, 5, 41, 58, 238376),
+ 'log_count/DEBUG': 8,
+ 'log_count/INFO': 7,
+ 'request_depth_max': 2,
+ 'response_received_count': 6,
+ 'scheduler/dequeued': 5,
+ 'scheduler/dequeued/memory': 5,
+ 'scheduler/enqueued': 5,
+ 'scheduler/enqueued/memory': 5,
+ 'start_time': datetime.datetime(2016, 8, 22, 5, 41, 42, 446988)}
+2016-08-22 01:41:58 [scrapy] INFO: Spider closed (finished)
+2016-08-22 01:42:34 [scrapy] INFO: Scrapy 1.1.1 started (bot: zip_code)
+2016-08-22 01:42:34 [scrapy] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'zip_code.spiders', 'ROBOTSTXT_OBEY': True, 'CONCURRENT_REQUESTS': 8, 'SPIDER_MODULES': ['zip_code.spiders'], 'BOT_NAME': 'zip_code', 'LOG_FILE': 'scrapy.log', 'DOWNLOAD_DELAY': 3}
+2016-08-22 01:42:34 [scrapy] INFO: Enabled extensions:
+['scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.corestats.CoreStats']
+2016-08-22 01:42:34 [scrapy] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.chunked.ChunkedTransferMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2016-08-22 01:42:34 [scrapy] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2016-08-22 01:42:34 [scrapy] INFO: Enabled item pipelines:
+[]
+2016-08-22 01:42:34 [scrapy] INFO: Spider opened
+2016-08-22 01:42:34 [scrapy] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2016-08-22 01:42:34 [scrapy] DEBUG: Telnet console listening on 127.0.0.1:6024
+2016-08-22 01:42:36 [scrapy] DEBUG: Crawled (200) <GET https://www.melissadata.com/robots.txt> (referer: None)
+2016-08-22 01:42:39 [scrapy] DEBUG: Crawled (200) <GET https://www.melissadata.com/lookups/countyzip.asp> (referer: None)
+2016-08-22 01:42:42 [scrapy] DEBUG: Crawled (200) <GET https://www.melissadata.com/lookups/countyzip.asp?state=NH33New+Hampshire> (referer: https://www.melissadata.com/lookups/countyzip.asp)
+2016-08-22 01:42:46 [scrapy] DEBUG: Crawled (200) <GET https://www.melissadata.com/lookups/countyzip.asp?state=NV32Nevada> (referer: https://www.melissadata.com/lookups/countyzip.asp)
+2016-08-22 01:42:50 [scrapy] DEBUG: Crawled (200) <GET https://www.melissadata.com/lookups/countyzip.asp?state=NE31Nebraska> (referer: https://www.melissadata.com/lookups/countyzip.asp)
+2016-08-22 01:42:54 [scrapy] DEBUG: Crawled (200) <GET https://www.melissadata.com/lookups/countyzip.asp?state=MT30Montana> (referer: https://www.melissadata.com/lookups/countyzip.asp)
+2016-08-22 01:42:57 [scrapy] DEBUG: Crawled (200) <GET https://www.melissadata.com/lookups/countyzip.asp?state=MO29Missouri> (referer: https://www.melissadata.com/lookups/countyzip.asp)
+2016-08-22 01:43:00 [scrapy] DEBUG: Crawled (200) <GET https://www.melissadata.com/lookups/countyzip.asp?state=MS28Mississippi> (referer: https://www.melissadata.com/lookups/countyzip.asp)
+2016-08-22 01:43:04 [scrapy] DEBUG: Crawled (200) <GET https://www.melissadata.com/lookups/countyzip.asp?state=MN27Minnesota> (referer: https://www.melissadata.com/lookups/countyzip.asp)
+2016-08-22 01:43:09 [scrapy] DEBUG: Crawled (200) <GET https://www.melissadata.com/lookups/countyzip.asp?state=FM64Micronesia> (referer: https://www.melissadata.com/lookups/countyzip.asp)
+2016-08-22 01:43:13 [scrapy] DEBUG: Crawled (200) <GET https://www.melissadata.com/lookups/countyzip.asp?state=WY56Wyoming> (referer: https://www.melissadata.com/lookups/countyzip.asp)
+2016-08-22 01:43:16 [scrapy] DEBUG: Crawled (200) <GET https://www.melissadata.com/lookups/countyzip.asp?fips=33019> (referer: https://www.melissadata.com/lookups/countyzip.asp?state=NH33New+Hampshire)
+2016-08-22 01:43:16 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=33019>
+{'city': u'HILLSBOROUGH', 'zip_code': u'03244', 'zip_percent': 2.4}
+2016-08-22 01:43:16 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=33019>
+{'city': u'WASHINGTON', 'zip_code': u'03280', 'zip_percent': 100.0}
+2016-08-22 01:43:16 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=33019>
+{'city': u'SPRINGFIELD', 'zip_code': u'03284', 'zip_percent': 100.0}
+2016-08-22 01:43:16 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=33019>
+{'city': u'ACWORTH', 'zip_code': u'03601', 'zip_percent': 100.0}
+2016-08-22 01:43:16 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=33019>
+{'city': u'CHARLESTOWN', 'zip_code': u'03603', 'zip_percent': 100.0}
+2016-08-22 01:43:16 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=33019>
+{'city': u'LEMPSTER', 'zip_code': u'03605', 'zip_percent': 100.0}
+2016-08-22 01:43:16 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=33019>
+{'city': u'SOUTH ACWORTH', 'zip_code': u'03607', 'zip_percent': 100.0}
+2016-08-22 01:43:16 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=33019>
+{'city': u'CLAREMONT', 'zip_code': u'03743', 'zip_percent': 100.0}
+2016-08-22 01:43:16 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=33019>
+{'city': u'CORNISH', 'zip_code': u'03745', 'zip_percent': 100.0}
+2016-08-22 01:43:16 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=33019>
+{'city': u'CORNISH FLAT', 'zip_code': u'03746', 'zip_percent': 100.0}
+2016-08-22 01:43:16 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=33019>
+{'city': u'ENFIELD', 'zip_code': u'03748', 'zip_percent': 4.6}
+2016-08-22 01:43:16 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=33019>
+{'city': u'GEORGES MILLS', 'zip_code': u'03751', 'zip_percent': 100.0}
+2016-08-22 01:43:16 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=33019>
+{'city': u'GOSHEN', 'zip_code': u'03752', 'zip_percent': 100.0}
+2016-08-22 01:43:16 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=33019>
+{'city': u'GRANTHAM', 'zip_code': u'03753', 'zip_percent': 100.0}
+2016-08-22 01:43:16 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=33019>
+{'city': u'GUILD', 'zip_code': u'03754', 'zip_percent': 100.0}
+2016-08-22 01:43:16 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=33019>
+{'city': u'MERIDEN', 'zip_code': u'03770', 'zip_percent': 100.0}
+2016-08-22 01:43:16 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=33019>
+{'city': u'NEWPORT', 'zip_code': u'03773', 'zip_percent': 100.0}
+2016-08-22 01:43:16 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=33019>
+{'city': u'PLAINFIELD', 'zip_code': u'03781', 'zip_percent': 100.0}
+2016-08-22 01:43:16 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=33019>
+{'city': u'SUNAPEE', 'zip_code': u'03782', 'zip_percent': 100.0}
+2016-08-22 01:43:19 [scrapy] DEBUG: Crawled (200) <GET https://www.melissadata.com/lookups/countyzip.asp?fips=32033> (referer: https://www.melissadata.com/lookups/countyzip.asp?state=NV32Nevada)
+2016-08-22 01:43:19 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=32033>
+{'city': u'ELY', 'zip_code': u'89301', 'zip_percent': 100.0}
+2016-08-22 01:43:19 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=32033>
+{'city': u'BAKER', 'zip_code': u'89311', 'zip_percent': 100.0}
+2016-08-22 01:43:19 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=32033>
+{'city': u'DUCKWATER', 'zip_code': u'89314', 'zip_percent': 100.0}
+2016-08-22 01:43:19 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=32033>
+{'city': u'ELY', 'zip_code': u'89315', 'zip_percent': 100.0}
+2016-08-22 01:43:19 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=32033>
+{'city': u'LUND', 'zip_code': u'89317', 'zip_percent': 100.0}
+2016-08-22 01:43:19 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=32033>
+{'city': u'MC GILL', 'zip_code': u'89318', 'zip_percent': 100.0}
+2016-08-22 01:43:19 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=32033>
+{'city': u'RUTH', 'zip_code': u'89319', 'zip_percent': 100.0}
+2016-08-22 01:43:22 [scrapy] DEBUG: Crawled (200) <GET https://www.melissadata.com/lookups/countyzip.asp?fips=31185> (referer: https://www.melissadata.com/lookups/countyzip.asp?state=NE31Nebraska)
+2016-08-22 01:43:22 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=31185>
+{'city': u'BENEDICT', 'zip_code': u'68316', 'zip_percent': 93.6}
+2016-08-22 01:43:22 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=31185>
+{'city': u'BRADSHAW', 'zip_code': u'68319', 'zip_percent': 97.8}
+2016-08-22 01:43:22 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=31185>
+{'city': u'EXETER', 'zip_code': u'68351', 'zip_percent': 8.7}
+2016-08-22 01:43:22 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=31185>
+{'city': u'FAIRMONT', 'zip_code': u'68354', 'zip_percent': 5.8}
+2016-08-22 01:43:22 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=31185>
+{'city': u'GRAFTON', 'zip_code': u'68365', 'zip_percent': 21.9}
+2016-08-22 01:43:22 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=31185>
+{'city': u'GRESHAM', 'zip_code': u'68367', 'zip_percent': 54.4}
+2016-08-22 01:43:22 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=31185>
+{'city': u'HENDERSON', 'zip_code': u'68371', 'zip_percent': 87.3}
+2016-08-22 01:43:22 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=31185>
+{'city': u'MC COOL JUNCTION', 'zip_code': u'68401', 'zip_percent': 100.0}
+2016-08-22 01:43:22 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=31185>
+{'city': u'WACO', 'zip_code': u'68460', 'zip_percent': 97.1}
+2016-08-22 01:43:22 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=31185>
+{'city': u'YORK', 'zip_code': u'68467', 'zip_percent': 100.0}
+2016-08-22 01:43:22 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=31185>
+{'city': u'POLK', 'zip_code': u'68654', 'zip_percent': 15.0}
+2016-08-22 01:43:22 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=31185>
+{'city': u'HAMPTON', 'zip_code': u'68843', 'zip_percent': 3.2}
+2016-08-22 01:43:26 [scrapy] DEBUG: Crawled (200) <GET https://www.melissadata.com/lookups/countyzip.asp?fips=30113> (referer: https://www.melissadata.com/lookups/countyzip.asp?state=MT30Montana)
+2016-08-22 01:43:29 [scrapy] DEBUG: Crawled (200) <GET https://www.melissadata.com/lookups/countyzip.asp?fips=29229> (referer: https://www.melissadata.com/lookups/countyzip.asp?state=MO29Missouri)
+2016-08-22 01:43:29 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=29229>
+{'city': u'FALCON', 'zip_code': u'65470', 'zip_percent': 20.3}
+2016-08-22 01:43:29 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=29229>
+{'city': u'GRAFF', 'zip_code': u'65660', 'zip_percent': 100.0}
+2016-08-22 01:43:29 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=29229>
+{'city': u'GROVESPRING', 'zip_code': u'65662', 'zip_percent': 76.6}
+2016-08-22 01:43:29 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=29229>
+{'city': u'HARTVILLE', 'zip_code': u'65667', 'zip_percent': 100.0}
+2016-08-22 01:43:29 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=29229>
+{'city': u'MACOMB', 'zip_code': u'65702', 'zip_percent': 65.9}
+2016-08-22 01:43:29 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=29229>
+{'city': u'MANSFIELD', 'zip_code': u'65704', 'zip_percent': 93.7}
+2016-08-22 01:43:29 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=29229>
+{'city': u'MOUNTAIN GROVE', 'zip_code': u'65711', 'zip_percent': 92.6}
+2016-08-22 01:43:29 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=29229>
+{'city': u'NIANGUA', 'zip_code': u'65713', 'zip_percent': 8.8}
+2016-08-22 01:43:29 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=29229>
+{'city': u'NORWOOD', 'zip_code': u'65717', 'zip_percent': 85.4}
+2016-08-22 01:43:32 [scrapy] DEBUG: Crawled (200) <GET https://www.melissadata.com/lookups/countyzip.asp?fips=28163> (referer: https://www.melissadata.com/lookups/countyzip.asp?state=MS28Mississippi)
+2016-08-22 01:43:32 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=28163>
+{'city': u'BENTON', 'zip_code': u'39039', 'zip_percent': 100.0}
+2016-08-22 01:43:32 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=28163>
+{'city': u'BENTONIA', 'zip_code': u'39040', 'zip_percent': 100.0}
+2016-08-22 01:43:32 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=28163>
+{'city': u'HOLLY BLUFF', 'zip_code': u'39088', 'zip_percent': 100.0}
+2016-08-22 01:43:32 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=28163>
+{'city': u'PICKENS', 'zip_code': u'39146', 'zip_percent': 10.3}
+2016-08-22 01:43:32 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=28163>
+{'city': u'SATARTIA', 'zip_code': u'39162', 'zip_percent': 98.7}
+2016-08-22 01:43:32 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=28163>
+{'city': u'TINSLEY', 'zip_code': u'39173', 'zip_percent': 100.0}
+2016-08-22 01:43:32 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=28163>
+{'city': u'VAUGHAN', 'zip_code': u'39179', 'zip_percent': 100.0}
+2016-08-22 01:43:32 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=28163>
+{'city': u'YAZOO CITY', 'zip_code': u'39194', 'zip_percent': 99.8}
+2016-08-22 01:43:34 [scrapy] INFO: Crawled 17 pages (at 17 pages/min), scraped 55 items (at 55 items/min)
+2016-08-22 01:43:36 [scrapy] DEBUG: Crawled (200) <GET https://www.melissadata.com/lookups/countyzip.asp?fips=27173> (referer: https://www.melissadata.com/lookups/countyzip.asp?state=MN27Minnesota)
+2016-08-22 01:43:36 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27173>
+{'city': u'BELVIEW', 'zip_code': u'56214', 'zip_percent': 7.0}
+2016-08-22 01:43:36 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27173>
+{'city': u'BOYD', 'zip_code': u'56218', 'zip_percent': 32.5}
+2016-08-22 01:43:36 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27173>
+{'city': u'CANBY', 'zip_code': u'56220', 'zip_percent': 85.8}
+2016-08-22 01:43:36 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27173>
+{'city': u'CLARKFIELD', 'zip_code': u'56223', 'zip_percent': 99.3}
+2016-08-22 01:43:36 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27173>
+{'city': u'COTTONWOOD', 'zip_code': u'56229', 'zip_percent': 23.8}
+2016-08-22 01:43:36 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27173>
+{'city': u'ECHO', 'zip_code': u'56237', 'zip_percent': 100.0}
+2016-08-22 01:43:36 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27173>
+{'city': u'GRANITE FALLS', 'zip_code': u'56241', 'zip_percent': 84.1}
+2016-08-22 01:43:36 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27173>
+{'city': u'HANLEY FALLS', 'zip_code': u'56245', 'zip_percent': 100.0}
+2016-08-22 01:43:36 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27173>
+{'city': u'MINNEOTA', 'zip_code': u'56264', 'zip_percent': 11.1}
+2016-08-22 01:43:36 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27173>
+{'city': u'PORTER', 'zip_code': u'56280', 'zip_percent': 72.3}
+2016-08-22 01:43:36 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27173>
+{'city': u'TAUNTON', 'zip_code': u'56291', 'zip_percent': 26.0}
+2016-08-22 01:43:36 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27173>
+{'city': u'WOOD LAKE', 'zip_code': u'56297', 'zip_percent': 94.9}
+2016-08-22 01:43:40 [scrapy] DEBUG: Crawled (200) <GET https://www.melissadata.com/lookups/countyzip.asp?fips=64060> (referer: https://www.melissadata.com/lookups/countyzip.asp?state=FM64Micronesia)
+2016-08-22 01:43:42 [scrapy] DEBUG: Crawled (200) <GET https://www.melissadata.com/lookups/countyzip.asp?fips=56045> (referer: https://www.melissadata.com/lookups/countyzip.asp?state=WY56Wyoming)
+2016-08-22 01:43:43 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56045>
+{'city': u'NEWCASTLE', 'zip_code': u'82701', 'zip_percent': 99.9}
+2016-08-22 01:43:43 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56045>
+{'city': u'FOUR CORNERS', 'zip_code': u'82715', 'zip_percent': 100.0}
+2016-08-22 01:43:43 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56045>
+{'city': u'OSAGE', 'zip_code': u'82723', 'zip_percent': 100.0}
+2016-08-22 01:43:43 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56045>
+{'city': u'SUNDANCE', 'zip_code': u'82729', 'zip_percent': 5.1}
+2016-08-22 01:43:43 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56045>
+{'city': u'UPTON', 'zip_code': u'82730', 'zip_percent': 72.7}
+2016-08-22 01:43:46 [scrapy] DEBUG: Crawled (200) <GET https://www.melissadata.com/lookups/countyzip.asp?fips=56043> (referer: https://www.melissadata.com/lookups/countyzip.asp?state=WY56Wyoming)
+2016-08-22 01:43:46 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56043>
+{'city': u'WORLAND', 'zip_code': u'82401', 'zip_percent': 99.9}
+2016-08-22 01:43:46 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56043>
+{'city': u'TEN SLEEP', 'zip_code': u'82442', 'zip_percent': 100.0}
+2016-08-22 01:43:50 [scrapy] DEBUG: Crawled (200) <GET https://www.melissadata.com/lookups/countyzip.asp?fips=56041> (referer: https://www.melissadata.com/lookups/countyzip.asp?state=WY56Wyoming)
+2016-08-22 01:43:50 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56041>
+{'city': u'EVANSTON', 'zip_code': u'82930', 'zip_percent': 100.0}
+2016-08-22 01:43:50 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56041>
+{'city': u'EVANSTON', 'zip_code': u'82931', 'zip_percent': 100.0}
+2016-08-22 01:43:50 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56041>
+{'city': u'FORT BRIDGER', 'zip_code': u'82933', 'zip_percent': 100.0}
+2016-08-22 01:43:50 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56041>
+{'city': u'LONETREE', 'zip_code': u'82936', 'zip_percent': 100.0}
+2016-08-22 01:43:50 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56041>
+{'city': u'LYMAN', 'zip_code': u'82937', 'zip_percent': 100.0}
+2016-08-22 01:43:50 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56041>
+{'city': u'MOUNTAIN VIEW', 'zip_code': u'82939', 'zip_percent': 100.0}
+2016-08-22 01:43:50 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56041>
+{'city': u'ROBERTSON', 'zip_code': u'82944', 'zip_percent': 100.0}
+2016-08-22 01:43:53 [scrapy] DEBUG: Crawled (200) <GET https://www.melissadata.com/lookups/countyzip.asp?fips=56039> (referer: https://www.melissadata.com/lookups/countyzip.asp?state=WY56Wyoming)
+2016-08-22 01:43:53 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56039>
+{'city': u'JACKSON', 'zip_code': u'83001', 'zip_percent': 100.0}
+2016-08-22 01:43:53 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56039>
+{'city': u'JACKSON', 'zip_code': u'83002', 'zip_percent': 100.0}
+2016-08-22 01:43:53 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56039>
+{'city': u'KELLY', 'zip_code': u'83011', 'zip_percent': 100.0}
+2016-08-22 01:43:53 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56039>
+{'city': u'MOOSE', 'zip_code': u'83012', 'zip_percent': 100.0}
+2016-08-22 01:43:53 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56039>
+{'city': u'MORAN', 'zip_code': u'83013', 'zip_percent': 100.0}
+2016-08-22 01:43:53 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56039>
+{'city': u'WILSON', 'zip_code': u'83014', 'zip_percent': 100.0}
+2016-08-22 01:43:53 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56039>
+{'city': u'TETON VILLAGE', 'zip_code': u'83025', 'zip_percent': 100.0}
+2016-08-22 01:43:53 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56039>
+{'city': u'ALTA', 'zip_code': u'83414', 'zip_percent': 100.0}
+2016-08-22 01:43:56 [scrapy] DEBUG: Crawled (200) <GET https://www.melissadata.com/lookups/countyzip.asp?fips=56037> (referer: https://www.melissadata.com/lookups/countyzip.asp?state=WY56Wyoming)
+2016-08-22 01:43:56 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56037>
+{'city': u'BAIROIL', 'zip_code': u'82322', 'zip_percent': 100.0}
+2016-08-22 01:43:56 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56037>
+{'city': u'WAMSUTTER', 'zip_code': u'82336', 'zip_percent': 100.0}
+2016-08-22 01:43:56 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56037>
+{'city': u'ROCK SPRINGS', 'zip_code': u'82901', 'zip_percent': 100.0}
+2016-08-22 01:43:56 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56037>
+{'city': u'ROCK SPRINGS', 'zip_code': u'82902', 'zip_percent': 100.0}
+2016-08-22 01:43:56 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56037>
+{'city': u'LITTLE AMERICA', 'zip_code': u'82929', 'zip_percent': 100.0}
+2016-08-22 01:43:56 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56037>
+{'city': u'FARSON', 'zip_code': u'82932', 'zip_percent': 100.0}
+2016-08-22 01:43:56 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56037>
+{'city': u'GRANGER', 'zip_code': u'82934', 'zip_percent': 100.0}
+2016-08-22 01:43:56 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56037>
+{'city': u'GREEN RIVER', 'zip_code': u'82935', 'zip_percent': 100.0}
+2016-08-22 01:43:56 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56037>
+{'city': u'MC KINNON', 'zip_code': u'82938', 'zip_percent': 100.0}
+2016-08-22 01:43:56 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56037>
+{'city': u'POINT OF ROCKS', 'zip_code': u'82942', 'zip_percent': 100.0}
+2016-08-22 01:43:56 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56037>
+{'city': u'RELIANCE', 'zip_code': u'82943', 'zip_percent': 100.0}
+2016-08-22 01:43:56 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56037>
+{'city': u'SUPERIOR', 'zip_code': u'82945', 'zip_percent': 100.0}
+2016-08-22 01:43:59 [scrapy] DEBUG: Crawled (200) <GET https://www.melissadata.com/lookups/countyzip.asp?fips=56035> (referer: https://www.melissadata.com/lookups/countyzip.asp?state=WY56Wyoming)
+2016-08-22 01:43:59 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56035>
+{'city': u'BONDURANT', 'zip_code': u'82922', 'zip_percent': 100.0}
+2016-08-22 01:43:59 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56035>
+{'city': u'BOULDER', 'zip_code': u'82923', 'zip_percent': 100.0}
+2016-08-22 01:43:59 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56035>
+{'city': u'CORA', 'zip_code': u'82925', 'zip_percent': 100.0}
+2016-08-22 01:43:59 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56035>
+{'city': u'PINEDALE', 'zip_code': u'82941', 'zip_percent': 100.0}
+2016-08-22 01:43:59 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56035>
+{'city': u'BIG PINEY', 'zip_code': u'83113', 'zip_percent': 100.0}
+2016-08-22 01:43:59 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56035>
+{'city': u'DANIEL', 'zip_code': u'83115', 'zip_percent': 100.0}
+2016-08-22 01:44:03 [scrapy] DEBUG: Crawled (200) <GET https://www.melissadata.com/lookups/countyzip.asp?fips=56033> (referer: https://www.melissadata.com/lookups/countyzip.asp?state=WY56Wyoming)
+2016-08-22 01:44:03 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56033>
+{'city': u'SHERIDAN', 'zip_code': u'82801', 'zip_percent': 100.0}
+2016-08-22 01:44:03 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56033>
+{'city': u'ARVADA', 'zip_code': u'82831', 'zip_percent': 32.3}
+2016-08-22 01:44:03 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56033>
+{'city': u'BANNER', 'zip_code': u'82832', 'zip_percent': 75.0}
+2016-08-22 01:44:03 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56033>
+{'city': u'BIG HORN', 'zip_code': u'82833', 'zip_percent': 100.0}
+2016-08-22 01:44:03 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56033>
+{'city': u'CLEARMONT', 'zip_code': u'82835', 'zip_percent': 100.0}
+2016-08-22 01:44:03 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56033>
+{'city': u'DAYTON', 'zip_code': u'82836', 'zip_percent': 100.0}
+2016-08-22 01:44:03 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56033>
+{'city': u'LEITER', 'zip_code': u'82837', 'zip_percent': 100.0}
+2016-08-22 01:44:03 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56033>
+{'city': u'PARKMAN', 'zip_code': u'82838', 'zip_percent': 100.0}
+2016-08-22 01:44:03 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56033>
+{'city': u'RANCHESTER', 'zip_code': u'82839', 'zip_percent': 100.0}
+2016-08-22 01:44:03 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56033>
+{'city': u'STORY', 'zip_code': u'82842', 'zip_percent': 100.0}
+2016-08-22 01:44:03 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56033>
+{'city': u'WOLF', 'zip_code': u'82844', 'zip_percent': 100.0}
+2016-08-22 01:44:03 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56033>
+{'city': u'WYARNO', 'zip_code': u'82845', 'zip_percent': 100.0}
+2016-08-22 01:44:05 [scrapy] DEBUG: Crawled (200) <GET https://www.melissadata.com/lookups/countyzip.asp?fips=56031> (referer: https://www.melissadata.com/lookups/countyzip.asp?state=WY56Wyoming)
+2016-08-22 01:44:06 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56031>
+{'city': u'WHEATLAND', 'zip_code': u'82201', 'zip_percent': 98.4}
+2016-08-22 01:44:06 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56031>
+{'city': u'CHUGWATER', 'zip_code': u'82210', 'zip_percent': 69.8}
+2016-08-22 01:44:06 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56031>
+{'city': u'GLENDO', 'zip_code': u'82213', 'zip_percent': 100.0}
+2016-08-22 01:44:06 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56031>
+{'city': u'GUERNSEY', 'zip_code': u'82214', 'zip_percent': 100.0}
+2016-08-22 01:44:06 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56031>
+{'city': u'HARTVILLE', 'zip_code': u'82215', 'zip_percent': 100.0}
+2016-08-22 01:44:10 [scrapy] DEBUG: Crawled (200) <GET https://www.melissadata.com/lookups/countyzip.asp?fips=56029> (referer: https://www.melissadata.com/lookups/countyzip.asp?state=WY56Wyoming)
+2016-08-22 01:44:10 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56029>
+{'city': u'YELLOWSTONE NATIONAL PARK',
+ 'zip_code': u'82190',
+ 'zip_percent': 100.0}
+2016-08-22 01:44:10 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56029>
+{'city': u'BURLINGTON', 'zip_code': u'82411', 'zip_percent': 2.1}
+2016-08-22 01:44:10 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56029>
+{'city': u'CODY', 'zip_code': u'82414', 'zip_percent': 100.0}
+2016-08-22 01:44:10 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56029>
+{'city': u'DEAVER', 'zip_code': u'82421', 'zip_percent': 12.4}
+2016-08-22 01:44:10 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56029>
+{'city': u'FRANNIE', 'zip_code': u'82423', 'zip_percent': 100.0}
+2016-08-22 01:44:10 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56029>
+{'city': u'MANDERSON', 'zip_code': u'82432', 'zip_percent': 75.0}
+2016-08-22 01:44:10 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56029>
+{'city': u'MEETEETSE', 'zip_code': u'82433', 'zip_percent': 100.0}
+2016-08-22 01:44:10 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56029>
+{'city': u'POWELL', 'zip_code': u'82435', 'zip_percent': 100.0}
+2016-08-22 01:44:10 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56029>
+{'city': u'RALSTON', 'zip_code': u'82440', 'zip_percent': 100.0}
+2016-08-22 01:44:10 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56029>
+{'city': u'WAPITI', 'zip_code': u'82450', 'zip_percent': 100.0}
+2016-08-22 01:44:14 [scrapy] DEBUG: Crawled (200) <GET https://www.melissadata.com/lookups/countyzip.asp?fips=56027> (referer: https://www.melissadata.com/lookups/countyzip.asp?state=WY56Wyoming)
+2016-08-22 01:44:14 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56027>
+{'city': u'LANCE CREEK', 'zip_code': u'82222', 'zip_percent': 100.0}
+2016-08-22 01:44:14 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56027>
+{'city': u'LOST SPRINGS', 'zip_code': u'82224', 'zip_percent': 45.5}
+2016-08-22 01:44:14 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56027>
+{'city': u'LUSK', 'zip_code': u'82225', 'zip_percent': 100.0}
+2016-08-22 01:44:14 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56027>
+{'city': u'MANVILLE', 'zip_code': u'82227', 'zip_percent': 100.0}
+2016-08-22 01:44:14 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56027>
+{'city': u'VAN TASSELL', 'zip_code': u'82242', 'zip_percent': 50.0}
+2016-08-22 01:44:16 [scrapy] DEBUG: Crawled (200) <GET https://www.melissadata.com/lookups/countyzip.asp?fips=56025> (referer: https://www.melissadata.com/lookups/countyzip.asp?state=WY56Wyoming)
+2016-08-22 01:44:16 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56025>
+{'city': u'CASPER', 'zip_code': u'82601', 'zip_percent': 100.0}
+2016-08-22 01:44:16 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56025>
+{'city': u'CASPER', 'zip_code': u'82602', 'zip_percent': 100.0}
+2016-08-22 01:44:16 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56025>
+{'city': u'CASPER', 'zip_code': u'82604', 'zip_percent': 100.0}
+2016-08-22 01:44:16 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56025>
+{'city': u'CASPER', 'zip_code': u'82605', 'zip_percent': 100.0}
+2016-08-22 01:44:16 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56025>
+{'city': u'CASPER', 'zip_code': u'82609', 'zip_percent': 100.0}
+2016-08-22 01:44:16 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56025>
+{'city': u'ALCOVA', 'zip_code': u'82620', 'zip_percent': 100.0}
+2016-08-22 01:44:16 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56025>
+{'city': u'ARMINTO', 'zip_code': u'82630', 'zip_percent': 100.0}
+2016-08-22 01:44:16 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56025>
+{'city': u'EDGERTON', 'zip_code': u'82635', 'zip_percent': 100.0}
+2016-08-22 01:44:16 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56025>
+{'city': u'EVANSVILLE', 'zip_code': u'82636', 'zip_percent': 97.2}
+2016-08-22 01:44:16 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56025>
+{'city': u'HILAND', 'zip_code': u'82638', 'zip_percent': 90.0}
+2016-08-22 01:44:16 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56025>
+{'city': u'KAYCEE', 'zip_code': u'82639', 'zip_percent': 7.2}
+2016-08-22 01:44:16 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56025>
+{'city': u'MIDWEST', 'zip_code': u'82643', 'zip_percent': 100.0}
+2016-08-22 01:44:16 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56025>
+{'city': u'MILLS', 'zip_code': u'82644', 'zip_percent': 100.0}
+2016-08-22 01:44:16 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56025>
+{'city': u'NATRONA', 'zip_code': u'82646', 'zip_percent': 100.0}
+2016-08-22 01:44:16 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56025>
+{'city': u'POWDER RIVER', 'zip_code': u'82648', 'zip_percent': 100.0}
+2016-08-22 01:44:20 [scrapy] DEBUG: Crawled (200) <GET https://www.melissadata.com/lookups/countyzip.asp?fips=56023> (referer: https://www.melissadata.com/lookups/countyzip.asp?state=WY56Wyoming)
+2016-08-22 01:44:20 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56023>
+{'city': u'KEMMERER', 'zip_code': u'83101', 'zip_percent': 99.9}
+2016-08-22 01:44:20 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56023>
+{'city': u'AFTON', 'zip_code': u'83110', 'zip_percent': 100.0}
+2016-08-22 01:44:20 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56023>
+{'city': u'AUBURN', 'zip_code': u'83111', 'zip_percent': 100.0}
+2016-08-22 01:44:20 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56023>
+{'city': u'BEDFORD', 'zip_code': u'83112', 'zip_percent': 100.0}
+2016-08-22 01:44:20 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56023>
+{'city': u'COKEVILLE', 'zip_code': u'83114', 'zip_percent': 100.0}
+2016-08-22 01:44:20 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56023>
+{'city': u'DIAMONDVILLE', 'zip_code': u'83116', 'zip_percent': 100.0}
+2016-08-22 01:44:20 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56023>
+{'city': u'ETNA', 'zip_code': u'83118', 'zip_percent': 100.0}
+2016-08-22 01:44:20 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56023>
+{'city': u'FAIRVIEW', 'zip_code': u'83119', 'zip_percent': 100.0}
+2016-08-22 01:44:20 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56023>
+{'city': u'FREEDOM', 'zip_code': u'83120', 'zip_percent': 100.0}
+2016-08-22 01:44:20 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56023>
+{'city': u'FRONTIER', 'zip_code': u'83121', 'zip_percent': 100.0}
+2016-08-22 01:44:20 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56023>
+{'city': u'GROVER', 'zip_code': u'83122', 'zip_percent': 100.0}
+2016-08-22 01:44:20 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56023>
+{'city': u'LA BARGE', 'zip_code': u'83123', 'zip_percent': 100.0}
+2016-08-22 01:44:20 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56023>
+{'city': u'OPAL', 'zip_code': u'83124', 'zip_percent': 100.0}
+2016-08-22 01:44:20 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56023>
+{'city': u'SMOOT', 'zip_code': u'83126', 'zip_percent': 100.0}
+2016-08-22 01:44:20 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56023>
+{'city': u'THAYNE', 'zip_code': u'83127', 'zip_percent': 100.0}
+2016-08-22 01:44:20 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56023>
+{'city': u'ALPINE', 'zip_code': u'83128', 'zip_percent': 100.0}
+2016-08-22 01:44:24 [scrapy] DEBUG: Crawled (200) <GET https://www.melissadata.com/lookups/countyzip.asp?fips=56021> (referer: https://www.melissadata.com/lookups/countyzip.asp?state=WY56Wyoming)
+2016-08-22 01:44:25 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56021>
+{'city': u'CHEYENNE', 'zip_code': u'82001', 'zip_percent': 100.0}
+2016-08-22 01:44:25 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56021>
+{'city': u'CHEYENNE', 'zip_code': u'82002', 'zip_percent': 100.0}
+2016-08-22 01:44:25 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56021>
+{'city': u'CHEYENNE', 'zip_code': u'82003', 'zip_percent': 100.0}
+2016-08-22 01:44:25 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56021>
+{'city': u'FE WARREN AFB', 'zip_code': u'82005', 'zip_percent': 100.0}
+2016-08-22 01:44:25 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56021>
+{'city': u'CHEYENNE', 'zip_code': u'82006', 'zip_percent': 100.0}
+2016-08-22 01:44:25 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56021>
+{'city': u'CHEYENNE', 'zip_code': u'82007', 'zip_percent': 100.0}
+2016-08-22 01:44:25 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56021>
+{'city': u'CHEYENNE', 'zip_code': u'82008', 'zip_percent': 100.0}
+2016-08-22 01:44:25 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56021>
+{'city': u'CHEYENNE', 'zip_code': u'82009', 'zip_percent': 100.0}
+2016-08-22 01:44:25 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56021>
+{'city': u'CHEYENNE', 'zip_code': u'82010', 'zip_percent': 100.0}
+2016-08-22 01:44:25 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56021>
+{'city': u'ALBIN', 'zip_code': u'82050', 'zip_percent': 100.0}
+2016-08-22 01:44:25 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56021>
+{'city': u'BUFORD', 'zip_code': u'82052', 'zip_percent': 17.1}
+2016-08-22 01:44:25 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56021>
+{'city': u'BURNS', 'zip_code': u'82053', 'zip_percent': 100.0}
+2016-08-22 01:44:25 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56021>
+{'city': u'CARPENTER', 'zip_code': u'82054', 'zip_percent': 100.0}
+2016-08-22 01:44:25 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56021>
+{'city': u'GRANITE CANON', 'zip_code': u'82059', 'zip_percent': 100.0}
+2016-08-22 01:44:25 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56021>
+{'city': u'HILLSDALE', 'zip_code': u'82060', 'zip_percent': 100.0}
+2016-08-22 01:44:25 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56021>
+{'city': u'HORSE CREEK', 'zip_code': u'82061', 'zip_percent': 100.0}
+2016-08-22 01:44:25 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56021>
+{'city': u'MERIDEN', 'zip_code': u'82081', 'zip_percent': 100.0}
+2016-08-22 01:44:25 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56021>
+{'city': u'PINE BLUFFS', 'zip_code': u'82082', 'zip_percent': 100.0}
+2016-08-22 01:44:29 [scrapy] DEBUG: Crawled (200) <GET https://www.melissadata.com/lookups/countyzip.asp?fips=56019> (referer: https://www.melissadata.com/lookups/countyzip.asp?state=WY56Wyoming)
+2016-08-22 01:44:29 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56019>
+{'city': u'KAYCEE', 'zip_code': u'82639', 'zip_percent': 92.8}
+2016-08-22 01:44:29 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56019>
+{'city': u'LINCH', 'zip_code': u'82640', 'zip_percent': 100.0}
+2016-08-22 01:44:29 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56019>
+{'city': u'ARVADA', 'zip_code': u'82831', 'zip_percent': 29.0}
+2016-08-22 01:44:29 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56019>
+{'city': u'BANNER', 'zip_code': u'82832', 'zip_percent': 25.0}
+2016-08-22 01:44:29 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56019>
+{'city': u'BUFFALO', 'zip_code': u'82834', 'zip_percent': 100.0}
+2016-08-22 01:44:29 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56019>
+{'city': u'SADDLESTRING', 'zip_code': u'82840', 'zip_percent': 100.0}
+2016-08-22 01:44:34 [scrapy] INFO: Crawled 33 pages (at 16 pages/min), scraped 194 items (at 139 items/min)
+2016-08-22 01:44:34 [scrapy] DEBUG: Crawled (200) <GET https://www.melissadata.com/lookups/countyzip.asp?fips=56017> (referer: https://www.melissadata.com/lookups/countyzip.asp?state=WY56Wyoming)
+2016-08-22 01:44:34 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56017>
+{'city': u'KIRBY', 'zip_code': u'82430', 'zip_percent': 100.0}
+2016-08-22 01:44:34 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56017>
+{'city': u'THERMOPOLIS', 'zip_code': u'82443', 'zip_percent': 99.6}
+2016-08-22 01:44:37 [scrapy] DEBUG: Crawled (200) <GET https://www.melissadata.com/lookups/countyzip.asp?fips=56015> (referer: https://www.melissadata.com/lookups/countyzip.asp?state=WY56Wyoming)
+2016-08-22 01:44:37 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56015>
+{'city': u'CHUGWATER', 'zip_code': u'82210', 'zip_percent': 30.2}
+2016-08-22 01:44:37 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56015>
+{'city': u'FORT LARAMIE', 'zip_code': u'82212', 'zip_percent': 100.0}
+2016-08-22 01:44:37 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56015>
+{'city': u'HAWK SPRINGS', 'zip_code': u'82217', 'zip_percent': 100.0}
+2016-08-22 01:44:37 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56015>
+{'city': u'HUNTLEY', 'zip_code': u'82218', 'zip_percent': 100.0}
+2016-08-22 01:44:37 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56015>
+{'city': u'JAY EM', 'zip_code': u'82219', 'zip_percent': 100.0}
+2016-08-22 01:44:37 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56015>
+{'city': u'LAGRANGE', 'zip_code': u'82221', 'zip_percent': 98.7}
+2016-08-22 01:44:37 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56015>
+{'city': u'LINGLE', 'zip_code': u'82223', 'zip_percent': 100.0}
+2016-08-22 01:44:37 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56015>
+{'city': u'TORRINGTON', 'zip_code': u'82240', 'zip_percent': 100.0}
+2016-08-22 01:44:37 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56015>
+{'city': u'VAN TASSELL', 'zip_code': u'82242', 'zip_percent': 50.0}
+2016-08-22 01:44:37 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56015>
+{'city': u'VETERAN', 'zip_code': u'82243', 'zip_percent': 100.0}
+2016-08-22 01:44:37 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56015>
+{'city': u'YODER', 'zip_code': u'82244', 'zip_percent': 100.0}
+2016-08-22 01:44:40 [scrapy] DEBUG: Crawled (200) <GET https://www.melissadata.com/lookups/countyzip.asp?fips=56013> (referer: https://www.melissadata.com/lookups/countyzip.asp?state=WY56Wyoming)
+2016-08-22 01:44:40 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56013>
+{'city': u'JEFFREY CITY', 'zip_code': u'82310', 'zip_percent': 100.0}
+2016-08-22 01:44:40 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56013>
+{'city': u'RIVERTON', 'zip_code': u'82501', 'zip_percent': 100.0}
+2016-08-22 01:44:40 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56013>
+{'city': u'ARAPAHOE', 'zip_code': u'82510', 'zip_percent': 100.0}
+2016-08-22 01:44:40 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56013>
+{'city': u'CROWHEART', 'zip_code': u'82512', 'zip_percent': 100.0}
+2016-08-22 01:44:40 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56013>
+{'city': u'DUBOIS', 'zip_code': u'82513', 'zip_percent': 100.0}
+2016-08-22 01:44:40 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56013>
+{'city': u'FORT WASHAKIE', 'zip_code': u'82514', 'zip_percent': 100.0}
+2016-08-22 01:44:40 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56013>
+{'city': u'HUDSON', 'zip_code': u'82515', 'zip_percent': 100.0}
+2016-08-22 01:44:40 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56013>
+{'city': u'KINNEAR', 'zip_code': u'82516', 'zip_percent': 100.0}
+2016-08-22 01:44:40 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56013>
+{'city': u'LANDER', 'zip_code': u'82520', 'zip_percent': 100.0}
+2016-08-22 01:44:40 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56013>
+{'city': u'PAVILLION', 'zip_code': u'82523', 'zip_percent': 100.0}
+2016-08-22 01:44:40 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56013>
+{'city': u'SAINT STEPHENS', 'zip_code': u'82524', 'zip_percent': 100.0}
+2016-08-22 01:44:40 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56013>
+{'city': u'HILAND', 'zip_code': u'82638', 'zip_percent': 10.0}
+2016-08-22 01:44:40 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56013>
+{'city': u'LYSITE', 'zip_code': u'82642', 'zip_percent': 100.0}
+2016-08-22 01:44:40 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56013>
+{'city': u'SHOSHONI', 'zip_code': u'82649', 'zip_percent': 100.0}
+2016-08-22 01:44:45 [scrapy] DEBUG: Crawled (200) <GET https://www.melissadata.com/lookups/countyzip.asp?fips=56011> (referer: https://www.melissadata.com/lookups/countyzip.asp?state=WY56Wyoming)
+2016-08-22 01:44:45 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56011>
+{'city': u'ALADDIN', 'zip_code': u'82710', 'zip_percent': 100.0}
+2016-08-22 01:44:45 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56011>
+{'city': u'ALVA', 'zip_code': u'82711', 'zip_percent': 100.0}
+2016-08-22 01:44:45 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56011>
+{'city': u'BEULAH', 'zip_code': u'82712', 'zip_percent': 100.0}
+2016-08-22 01:44:45 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56011>
+{'city': u'DEVILS TOWER', 'zip_code': u'82714', 'zip_percent': 100.0}
+2016-08-22 01:44:45 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56011>
+{'city': u'HULETT', 'zip_code': u'82720', 'zip_percent': 100.0}
+2016-08-22 01:44:45 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56011>
+{'city': u'MOORCROFT', 'zip_code': u'82721', 'zip_percent': 100.0}
+2016-08-22 01:44:45 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56011>
+{'city': u'ROZET', 'zip_code': u'82727', 'zip_percent': 6.5}
+2016-08-22 01:44:45 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56011>
+{'city': u'SUNDANCE', 'zip_code': u'82729', 'zip_percent': 94.9}
+2016-08-22 01:44:45 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56011>
+{'city': u'UPTON', 'zip_code': u'82730', 'zip_percent': 27.3}
+2016-08-22 01:44:47 [scrapy] DEBUG: Crawled (200) <GET https://www.melissadata.com/lookups/countyzip.asp?fips=56009> (referer: https://www.melissadata.com/lookups/countyzip.asp?state=WY56Wyoming)
+2016-08-22 01:44:47 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56009>
+{'city': u'LOST SPRINGS', 'zip_code': u'82224', 'zip_percent': 54.6}
+2016-08-22 01:44:47 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56009>
+{'city': u'SHAWNEE', 'zip_code': u'82229', 'zip_percent': 100.0}
+2016-08-22 01:44:47 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56009>
+{'city': u'DOUGLAS', 'zip_code': u'82633', 'zip_percent': 100.0}
+2016-08-22 01:44:47 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56009>
+{'city': u'EVANSVILLE', 'zip_code': u'82636', 'zip_percent': 2.8}
+2016-08-22 01:44:47 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56009>
+{'city': u'GLENROCK', 'zip_code': u'82637', 'zip_percent': 100.0}
+2016-08-22 01:44:51 [scrapy] DEBUG: Crawled (200) <GET https://www.melissadata.com/lookups/countyzip.asp?fips=56007> (referer: https://www.melissadata.com/lookups/countyzip.asp?state=WY56Wyoming)
+2016-08-22 01:44:51 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56007>
+{'city': u'ROCK RIVER', 'zip_code': u'82083', 'zip_percent': 66.1}
+2016-08-22 01:44:51 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56007>
+{'city': u'RAWLINS', 'zip_code': u'82301', 'zip_percent': 99.8}
+2016-08-22 01:44:51 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56007>
+{'city': u'BAGGS', 'zip_code': u'82321', 'zip_percent': 100.0}
+2016-08-22 01:44:51 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56007>
+{'city': u'DIXON', 'zip_code': u'82323', 'zip_percent': 100.0}
+2016-08-22 01:44:51 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56007>
+{'city': u'ELK MOUNTAIN', 'zip_code': u'82324', 'zip_percent': 100.0}
+2016-08-22 01:44:51 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56007>
+{'city': u'ENCAMPMENT', 'zip_code': u'82325', 'zip_percent': 100.0}
+2016-08-22 01:44:51 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56007>
+{'city': u'HANNA', 'zip_code': u'82327', 'zip_percent': 100.0}
+2016-08-22 01:44:51 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56007>
+{'city': u'MEDICINE BOW', 'zip_code': u'82329', 'zip_percent': 66.7}
+2016-08-22 01:44:51 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56007>
+{'city': u'SARATOGA', 'zip_code': u'82331', 'zip_percent': 100.0}
+2016-08-22 01:44:51 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56007>
+{'city': u'SAVERY', 'zip_code': u'82332', 'zip_percent': 100.0}
+2016-08-22 01:44:51 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56007>
+{'city': u'SINCLAIR', 'zip_code': u'82334', 'zip_percent': 100.0}
+2016-08-22 01:44:51 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56007>
+{'city': u'WALCOTT', 'zip_code': u'82335', 'zip_percent': 100.0}
+2016-08-22 01:44:51 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56007>
+{'city': u'SHIRLEY BASIN', 'zip_code': u'82615', 'zip_percent': 100.0}
+2016-08-22 01:44:54 [scrapy] DEBUG: Crawled (200) <GET https://www.melissadata.com/lookups/countyzip.asp?fips=56005> (referer: https://www.melissadata.com/lookups/countyzip.asp?state=WY56Wyoming)
+2016-08-22 01:44:54 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56005>
+{'city': u'GILLETTE', 'zip_code': u'82716', 'zip_percent': 100.0}
+2016-08-22 01:44:54 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56005>
+{'city': u'GILLETTE', 'zip_code': u'82717', 'zip_percent': 100.0}
+2016-08-22 01:44:54 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56005>
+{'city': u'GILLETTE', 'zip_code': u'82718', 'zip_percent': 100.0}
+2016-08-22 01:44:54 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56005>
+{'city': u'RECLUSE', 'zip_code': u'82725', 'zip_percent': 100.0}
+2016-08-22 01:44:54 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56005>
+{'city': u'ROZET', 'zip_code': u'82727', 'zip_percent': 93.5}
+2016-08-22 01:44:54 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56005>
+{'city': u'WESTON', 'zip_code': u'82731', 'zip_percent': 100.0}
+2016-08-22 01:44:54 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56005>
+{'city': u'WRIGHT', 'zip_code': u'82732', 'zip_percent': 100.0}
+2016-08-22 01:44:54 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56005>
+{'city': u'ARVADA', 'zip_code': u'82831', 'zip_percent': 38.7}
+2016-08-22 01:44:59 [scrapy] DEBUG: Crawled (200) <GET https://www.melissadata.com/lookups/countyzip.asp?fips=56003> (referer: https://www.melissadata.com/lookups/countyzip.asp?state=WY56Wyoming)
+2016-08-22 01:44:59 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56003>
+{'city': u'BASIN', 'zip_code': u'82410', 'zip_percent': 100.0}
+2016-08-22 01:44:59 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56003>
+{'city': u'BURLINGTON', 'zip_code': u'82411', 'zip_percent': 97.9}
+2016-08-22 01:44:59 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56003>
+{'city': u'BYRON', 'zip_code': u'82412', 'zip_percent': 100.0}
+2016-08-22 01:44:59 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56003>
+{'city': u'COWLEY', 'zip_code': u'82420', 'zip_percent': 100.0}
+2016-08-22 01:44:59 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56003>
+{'city': u'DEAVER', 'zip_code': u'82421', 'zip_percent': 87.7}
+2016-08-22 01:44:59 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56003>
+{'city': u'EMBLEM', 'zip_code': u'82422', 'zip_percent': 100.0}
+2016-08-22 01:44:59 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56003>
+{'city': u'GREYBULL', 'zip_code': u'82426', 'zip_percent': 100.0}
+2016-08-22 01:44:59 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56003>
+{'city': u'HYATTVILLE', 'zip_code': u'82428', 'zip_percent': 100.0}
+2016-08-22 01:44:59 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56003>
+{'city': u'LOVELL', 'zip_code': u'82431', 'zip_percent': 100.0}
+2016-08-22 01:44:59 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56003>
+{'city': u'MANDERSON', 'zip_code': u'82432', 'zip_percent': 25.0}
+2016-08-22 01:44:59 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56003>
+{'city': u'OTTO', 'zip_code': u'82434', 'zip_percent': 100.0}
+2016-08-22 01:44:59 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56003>
+{'city': u'SHELL', 'zip_code': u'82441', 'zip_percent': 100.0}
+2016-08-22 01:45:02 [scrapy] DEBUG: Crawled (200) <GET https://www.melissadata.com/lookups/countyzip.asp?fips=56001> (referer: https://www.melissadata.com/lookups/countyzip.asp?state=WY56Wyoming)
+2016-08-22 01:45:02 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56001>
+{'city': u'BOSLER', 'zip_code': u'82051', 'zip_percent': 100.0}
+2016-08-22 01:45:02 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56001>
+{'city': u'BUFORD', 'zip_code': u'82052', 'zip_percent': 82.9}
+2016-08-22 01:45:02 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56001>
+{'city': u'CENTENNIAL', 'zip_code': u'82055', 'zip_percent': 100.0}
+2016-08-22 01:45:02 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56001>
+{'city': u'GARRETT', 'zip_code': u'82058', 'zip_percent': 100.0}
+2016-08-22 01:45:02 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56001>
+{'city': u'JELM', 'zip_code': u'82063', 'zip_percent': 100.0}
+2016-08-22 01:45:02 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56001>
+{'city': u'LARAMIE', 'zip_code': u'82070', 'zip_percent': 100.0}
+2016-08-22 01:45:02 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56001>
+{'city': u'LARAMIE', 'zip_code': u'82071', 'zip_percent': 100.0}
+2016-08-22 01:45:02 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56001>
+{'city': u'LARAMIE', 'zip_code': u'82072', 'zip_percent': 100.0}
+2016-08-22 01:45:02 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56001>
+{'city': u'LARAMIE', 'zip_code': u'82073', 'zip_percent': 100.0}
+2016-08-22 01:45:02 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56001>
+{'city': u'ROCK RIVER', 'zip_code': u'82083', 'zip_percent': 33.9}
+2016-08-22 01:45:02 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56001>
+{'city': u'TIE SIDING', 'zip_code': u'82084', 'zip_percent': 100.0}
+2016-08-22 01:45:02 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=56001>
+{'city': u'MEDICINE BOW', 'zip_code': u'82329', 'zip_percent': 33.3}
+2016-08-22 01:45:06 [scrapy] DEBUG: Crawled (200) <GET https://www.melissadata.com/lookups/countyzip.asp?fips=64040> (referer: https://www.melissadata.com/lookups/countyzip.asp?state=FM64Micronesia)
+2016-08-22 01:45:09 [scrapy] DEBUG: Crawled (200) <GET https://www.melissadata.com/lookups/countyzip.asp?fips=64005> (referer: https://www.melissadata.com/lookups/countyzip.asp?state=FM64Micronesia)
+2016-08-22 01:45:13 [scrapy] DEBUG: Crawled (200) <GET https://www.melissadata.com/lookups/countyzip.asp?fips=64003> (referer: https://www.melissadata.com/lookups/countyzip.asp?state=FM64Micronesia)
+2016-08-22 01:45:13 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=64003>
+{'city': u'POHNPEI', 'zip_code': u'96941', 'zip_percent': 100.0}
+2016-08-22 01:45:13 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=64003>
+{'city': u'CHUUK', 'zip_code': u'96942', 'zip_percent': 100.0}
+2016-08-22 01:45:13 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=64003>
+{'city': u'YAP', 'zip_code': u'96943', 'zip_percent': 100.0}
+2016-08-22 01:45:13 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=64003>
+{'city': u'KOSRAE', 'zip_code': u'96944', 'zip_percent': 100.0}
+2016-08-22 01:45:17 [scrapy] DEBUG: Crawled (200) <GET https://www.melissadata.com/lookups/countyzip.asp?fips=64002> (referer: https://www.melissadata.com/lookups/countyzip.asp?state=FM64Micronesia)
+2016-08-22 01:45:21 [scrapy] DEBUG: Crawled (200) <GET https://www.melissadata.com/lookups/countyzip.asp?fips=27171> (referer: https://www.melissadata.com/lookups/countyzip.asp?state=MN27Minnesota)
+2016-08-22 01:45:21 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27171>
+{'city': u'ALBERTVILLE', 'zip_code': u'55301', 'zip_percent': 100.0}
+2016-08-22 01:45:21 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27171>
+{'city': u'ANNANDALE', 'zip_code': u'55302', 'zip_percent': 100.0}
+2016-08-22 01:45:21 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27171>
+{'city': u'BUFFALO', 'zip_code': u'55313', 'zip_percent': 100.0}
+2016-08-22 01:45:21 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27171>
+{'city': u'CLEARWATER', 'zip_code': u'55320', 'zip_percent': 62.8}
+2016-08-22 01:45:21 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27171>
+{'city': u'COKATO', 'zip_code': u'55321', 'zip_percent': 99.3}
+2016-08-22 01:45:21 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27171>
+{'city': u'DELANO', 'zip_code': u'55328', 'zip_percent': 92.1}
+2016-08-22 01:45:21 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27171>
+{'city': u'ELK RIVER', 'zip_code': u'55330', 'zip_percent': 17.8}
+2016-08-22 01:45:21 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27171>
+{'city': u'HANOVER', 'zip_code': u'55341', 'zip_percent': 78.8}
+2016-08-22 01:45:21 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27171>
+{'city': u'HOWARD LAKE', 'zip_code': u'55349', 'zip_percent': 100.0}
+2016-08-22 01:45:21 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27171>
+{'city': u'MAPLE LAKE', 'zip_code': u'55358', 'zip_percent': 100.0}
+2016-08-22 01:45:21 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27171>
+{'city': u'MONTICELLO', 'zip_code': u'55362', 'zip_percent': 100.0}
+2016-08-22 01:45:21 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27171>
+{'city': u'MONTROSE', 'zip_code': u'55363', 'zip_percent': 98.8}
+2016-08-22 01:45:21 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27171>
+{'city': u'ROCKFORD', 'zip_code': u'55373', 'zip_percent': 81.4}
+2016-08-22 01:45:21 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27171>
+{'city': u'ROGERS', 'zip_code': u'55374', 'zip_percent': 2.7}
+2016-08-22 01:45:21 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27171>
+{'city': u'SAINT MICHAEL', 'zip_code': u'55376', 'zip_percent': 100.0}
+2016-08-22 01:45:21 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27171>
+{'city': u'SILVER CREEK', 'zip_code': u'55380', 'zip_percent': 100.0}
+2016-08-22 01:45:21 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27171>
+{'city': u'SOUTH HAVEN', 'zip_code': u'55382', 'zip_percent': 46.5}
+2016-08-22 01:45:21 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27171>
+{'city': u'WATERTOWN', 'zip_code': u'55388', 'zip_percent': 9.6}
+2016-08-22 01:45:21 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27171>
+{'city': u'WAVERLY', 'zip_code': u'55390', 'zip_percent': 100.0}
+2016-08-22 01:45:21 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27171>
+{'city': u'WINSTED', 'zip_code': u'55395', 'zip_percent': 2.1}
+2016-08-22 01:45:21 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27171>
+{'city': u'MAPLE PLAIN', 'zip_code': u'55592', 'zip_percent': 100.0}
+2016-08-22 01:45:25 [scrapy] DEBUG: Crawled (200) <GET https://www.melissadata.com/lookups/countyzip.asp?fips=27169> (referer: https://www.melissadata.com/lookups/countyzip.asp?state=MN27Minnesota)
+2016-08-22 01:45:25 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27169>
+{'city': u'ALTURA', 'zip_code': u'55910', 'zip_percent': 74.9}
+2016-08-22 01:45:25 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27169>
+{'city': u'DAKOTA', 'zip_code': u'55925', 'zip_percent': 100.0}
+2016-08-22 01:45:25 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27169>
+{'city': u'HOMER', 'zip_code': u'55942', 'zip_percent': 100.0}
+2016-08-22 01:45:25 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27169>
+{'city': u'HOUSTON', 'zip_code': u'55943', 'zip_percent': 13.7}
+2016-08-22 01:45:25 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27169>
+{'city': u'LA CRESCENT', 'zip_code': u'55947', 'zip_percent': 5.8}
+2016-08-22 01:45:25 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27169>
+{'city': u'LEWISTON', 'zip_code': u'55952', 'zip_percent': 100.0}
+2016-08-22 01:45:25 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27169>
+{'city': u'MINNESOTA CITY', 'zip_code': u'55959', 'zip_percent': 100.0}
+2016-08-22 01:45:25 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27169>
+{'city': u'ROLLINGSTONE', 'zip_code': u'55969', 'zip_percent': 100.0}
+2016-08-22 01:45:25 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27169>
+{'city': u'SAINT CHARLES', 'zip_code': u'55972', 'zip_percent': 86.0}
+2016-08-22 01:45:25 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27169>
+{'city': u'UTICA', 'zip_code': u'55979', 'zip_percent': 100.0}
+2016-08-22 01:45:25 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27169>
+{'city': u'WINONA', 'zip_code': u'55987', 'zip_percent': 100.0}
+2016-08-22 01:45:25 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27169>
+{'city': u'STOCKTON', 'zip_code': u'55988', 'zip_percent': 100.0}
+2016-08-22 01:45:27 [scrapy] DEBUG: Crawled (200) <GET https://www.melissadata.com/lookups/countyzip.asp?fips=27167> (referer: https://www.melissadata.com/lookups/countyzip.asp?state=MN27Minnesota)
+2016-08-22 01:45:27 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27167>
+{'city': u'BARNESVILLE', 'zip_code': u'56514', 'zip_percent': 10.6}
+2016-08-22 01:45:27 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27167>
+{'city': u'BRECKENRIDGE', 'zip_code': u'56520', 'zip_percent': 100.0}
+2016-08-22 01:45:27 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27167>
+{'city': u'CAMPBELL', 'zip_code': u'56522', 'zip_percent': 87.1}
+2016-08-22 01:45:27 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27167>
+{'city': u'FOXHOME', 'zip_code': u'56543', 'zip_percent': 100.0}
+2016-08-22 01:45:27 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27167>
+{'city': u'KENT', 'zip_code': u'56553', 'zip_percent': 100.0}
+2016-08-22 01:45:27 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27167>
+{'city': u'NASHUA', 'zip_code': u'56565', 'zip_percent': 91.2}
+2016-08-22 01:45:27 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27167>
+{'city': u'ROTHSAY', 'zip_code': u'56579', 'zip_percent': 60.9}
+2016-08-22 01:45:27 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27167>
+{'city': u'TINTAH', 'zip_code': u'56583', 'zip_percent': 98.6}
+2016-08-22 01:45:27 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27167>
+{'city': u'WOLVERTON', 'zip_code': u'56594', 'zip_percent': 100.0}
+2016-08-22 01:45:32 [scrapy] DEBUG: Crawled (200) <GET https://www.melissadata.com/lookups/countyzip.asp?fips=27165> (referer: https://www.melissadata.com/lookups/countyzip.asp?state=MN27Minnesota)
+2016-08-22 01:45:32 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27165>
+{'city': u'COMFREY', 'zip_code': u'56019', 'zip_percent': 4.4}
+2016-08-22 01:45:32 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27165>
+{'city': u'DARFUR', 'zip_code': u'56022', 'zip_percent': 100.0}
+2016-08-22 01:45:32 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27165>
+{'city': u'LA SALLE', 'zip_code': u'56056', 'zip_percent': 100.0}
+2016-08-22 01:45:32 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27165>
+{'city': u'LEWISVILLE', 'zip_code': u'56060', 'zip_percent': 92.4}
+2016-08-22 01:45:32 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27165>
+{'city': u'MADELIA', 'zip_code': u'56062', 'zip_percent': 90.8}
+2016-08-22 01:45:32 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27165>
+{'city': u'SAINT JAMES', 'zip_code': u'56081', 'zip_percent': 98.3}
+2016-08-22 01:45:32 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27165>
+{'city': u'TRUMAN', 'zip_code': u'56088', 'zip_percent': 19.8}
+2016-08-22 01:45:32 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27165>
+{'city': u'BUTTERFIELD', 'zip_code': u'56120', 'zip_percent': 41.6}
+2016-08-22 01:45:32 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27165>
+{'city': u'ODIN', 'zip_code': u'56160', 'zip_percent': 40.7}
+2016-08-22 01:45:32 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27165>
+{'city': u'ORMSBY', 'zip_code': u'56162', 'zip_percent': 24.2}
+2016-08-22 01:45:34 [scrapy] INFO: Crawled 50 pages (at 17 pages/min), scraped 336 items (at 142 items/min)
+2016-08-22 01:45:34 [scrapy] DEBUG: Crawled (200) <GET https://www.melissadata.com/lookups/countyzip.asp?fips=27163> (referer: https://www.melissadata.com/lookups/countyzip.asp?state=MN27Minnesota)
+2016-08-22 01:45:34 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27163>
+{'city': u'AFTON', 'zip_code': u'55001', 'zip_percent': 100.0}
+2016-08-22 01:45:34 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27163>
+{'city': u'BAYPORT', 'zip_code': u'55003', 'zip_percent': 100.0}
+2016-08-22 01:45:34 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27163>
+{'city': u'COTTAGE GROVE', 'zip_code': u'55016', 'zip_percent': 100.0}
+2016-08-22 01:45:34 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27163>
+{'city': u'FOREST LAKE', 'zip_code': u'55025', 'zip_percent': 79.4}
+2016-08-22 01:45:34 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27163>
+{'city': u'HASTINGS', 'zip_code': u'55033', 'zip_percent': 8.3}
+2016-08-22 01:45:34 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27163>
+{'city': u'HUGO', 'zip_code': u'55038', 'zip_percent': 73.6}
+2016-08-22 01:45:34 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27163>
+{'city': u'LAKE ELMO', 'zip_code': u'55042', 'zip_percent': 100.0}
+2016-08-22 01:45:34 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27163>
+{'city': u'LAKELAND', 'zip_code': u'55043', 'zip_percent': 100.0}
+2016-08-22 01:45:34 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27163>
+{'city': u'MARINE ON SAINT CROIX', 'zip_code': u'55047', 'zip_percent': 100.0}
+2016-08-22 01:45:34 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27163>
+{'city': u'NEWPORT', 'zip_code': u'55055', 'zip_percent': 100.0}
+2016-08-22 01:45:34 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27163>
+{'city': u'SAINT PAUL PARK', 'zip_code': u'55071', 'zip_percent': 100.0}
+2016-08-22 01:45:34 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27163>
+{'city': u'SCANDIA', 'zip_code': u'55073', 'zip_percent': 86.5}
+2016-08-22 01:45:34 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27163>
+{'city': u'STACY', 'zip_code': u'55078', 'zip_percent': 40.0}
+2016-08-22 01:45:34 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27163>
+{'city': u'STILLWATER', 'zip_code': u'55082', 'zip_percent': 100.0}
+2016-08-22 01:45:34 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27163>
+{'city': u'STILLWATER', 'zip_code': u'55083', 'zip_percent': 100.0}
+2016-08-22 01:45:34 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27163>
+{'city': u'WILLERNIE', 'zip_code': u'55090', 'zip_percent': 100.0}
+2016-08-22 01:45:34 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27163>
+{'city': u'SAINT PAUL', 'zip_code': u'55110', 'zip_percent': 10.9}
+2016-08-22 01:45:34 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27163>
+{'city': u'SAINT PAUL', 'zip_code': u'55115', 'zip_percent': 100.0}
+2016-08-22 01:45:34 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27163>
+{'city': u'SAINT PAUL', 'zip_code': u'55125', 'zip_percent': 100.0}
+2016-08-22 01:45:34 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27163>
+{'city': u'SAINT PAUL', 'zip_code': u'55128', 'zip_percent': 100.0}
+2016-08-22 01:45:34 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27163>
+{'city': u'SAINT PAUL', 'zip_code': u'55129', 'zip_percent': 100.0}
+2016-08-22 01:45:37 [scrapy] DEBUG: Crawled (200) <GET https://www.melissadata.com/lookups/countyzip.asp?fips=27161> (referer: https://www.melissadata.com/lookups/countyzip.asp?state=MN27Minnesota)
+2016-08-22 01:45:37 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27161>
+{'city': u'MORRISTOWN', 'zip_code': u'55052', 'zip_percent': 6.7}
+2016-08-22 01:45:37 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27161>
+{'city': u'ELYSIAN', 'zip_code': u'56028', 'zip_percent': 7.3}
+2016-08-22 01:45:37 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27161>
+{'city': u'HARTLAND', 'zip_code': u'56042', 'zip_percent': 4.4}
+2016-08-22 01:45:37 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27161>
+{'city': u'JANESVILLE', 'zip_code': u'56048', 'zip_percent': 98.8}
+2016-08-22 01:45:37 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27161>
+{'city': u'MADISON LAKE', 'zip_code': u'56063', 'zip_percent': 21.9}
+2016-08-22 01:45:37 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27161>
+{'city': u'MINNESOTA LAKE', 'zip_code': u'56068', 'zip_percent': 24.4}
+2016-08-22 01:45:37 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27161>
+{'city': u'NEW RICHLAND', 'zip_code': u'56072', 'zip_percent': 93.1}
+2016-08-22 01:45:37 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27161>
+{'city': u'PEMBERTON', 'zip_code': u'56078', 'zip_percent': 74.8}
+2016-08-22 01:45:37 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27161>
+{'city': u'WALDORF', 'zip_code': u'56091', 'zip_percent': 100.0}
+2016-08-22 01:45:37 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27161>
+{'city': u'WASECA', 'zip_code': u'56093', 'zip_percent': 96.7}
+2016-08-22 01:45:37 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27161>
+{'city': u'WATERVILLE', 'zip_code': u'56096', 'zip_percent': 8.9}
+2016-08-22 01:45:37 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27161>
+{'city': u'WELLS', 'zip_code': u'56097', 'zip_percent': 2.1}
+2016-08-22 01:45:41 [scrapy] DEBUG: Crawled (200) <GET https://www.melissadata.com/lookups/countyzip.asp?fips=27159> (referer: https://www.melissadata.com/lookups/countyzip.asp?state=MN27Minnesota)
+2016-08-22 01:45:41 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27159>
+{'city': u'ALDRICH', 'zip_code': u'56434', 'zip_percent': 39.7}
+2016-08-22 01:45:41 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27159>
+{'city': u'MENAHGA', 'zip_code': u'56464', 'zip_percent': 53.9}
+2016-08-22 01:45:41 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27159>
+{'city': u'SEBEKA', 'zip_code': u'56477', 'zip_percent': 80.7}
+2016-08-22 01:45:41 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27159>
+{'city': u'STAPLES', 'zip_code': u'56479', 'zip_percent': 33.0}
+2016-08-22 01:45:41 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27159>
+{'city': u'VERNDALE', 'zip_code': u'56481', 'zip_percent': 77.7}
+2016-08-22 01:45:41 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27159>
+{'city': u'WADENA', 'zip_code': u'56482', 'zip_percent': 80.8}
+2016-08-22 01:45:44 [scrapy] DEBUG: Crawled (200) <GET https://www.melissadata.com/lookups/countyzip.asp?fips=27157> (referer: https://www.melissadata.com/lookups/countyzip.asp?state=MN27Minnesota)
+2016-08-22 01:45:44 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27157>
+{'city': u'GOODHUE', 'zip_code': u'55027', 'zip_percent': 4.3}
+2016-08-22 01:45:44 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27157>
+{'city': u'LAKE CITY', 'zip_code': u'55041', 'zip_percent': 82.6}
+2016-08-22 01:45:44 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27157>
+{'city': u'ALTURA', 'zip_code': u'55910', 'zip_percent': 25.1}
+2016-08-22 01:45:44 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27157>
+{'city': u'ELGIN', 'zip_code': u'55932', 'zip_percent': 76.6}
+2016-08-22 01:45:44 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27157>
+{'city': u'KELLOGG', 'zip_code': u'55945', 'zip_percent': 100.0}
+2016-08-22 01:45:44 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27157>
+{'city': u'MAZEPPA', 'zip_code': u'55956', 'zip_percent': 52.9}
+2016-08-22 01:45:44 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27157>
+{'city': u'MILLVILLE', 'zip_code': u'55957', 'zip_percent': 100.0}
+2016-08-22 01:45:44 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27157>
+{'city': u'PLAINVIEW', 'zip_code': u'55964', 'zip_percent': 99.2}
+2016-08-22 01:45:44 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27157>
+{'city': u'READS LANDING', 'zip_code': u'55968', 'zip_percent': 100.0}
+2016-08-22 01:45:44 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27157>
+{'city': u'WABASHA', 'zip_code': u'55981', 'zip_percent': 100.0}
+2016-08-22 01:45:44 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27157>
+{'city': u'ZUMBRO FALLS', 'zip_code': u'55991', 'zip_percent': 10.0}
+2016-08-22 01:45:49 [scrapy] DEBUG: Crawled (200) <GET https://www.melissadata.com/lookups/countyzip.asp?fips=27155> (referer: https://www.melissadata.com/lookups/countyzip.asp?state=MN27Minnesota)
+2016-08-22 01:45:49 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27155>
+{'city': u'BEARDSLEY', 'zip_code': u'56211', 'zip_percent': 16.8}
+2016-08-22 01:45:49 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27155>
+{'city': u'BROWNS VALLEY', 'zip_code': u'56219', 'zip_percent': 97.3}
+2016-08-22 01:45:49 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27155>
+{'city': u'DUMONT', 'zip_code': u'56236', 'zip_percent': 74.8}
+2016-08-22 01:45:49 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27155>
+{'city': u'GRACEVILLE', 'zip_code': u'56240', 'zip_percent': 13.3}
+2016-08-22 01:45:49 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27155>
+{'city': u'HERMAN', 'zip_code': u'56248', 'zip_percent': 5.7}
+2016-08-22 01:45:49 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27155>
+{'city': u'NORCROSS', 'zip_code': u'56274', 'zip_percent': 25.0}
+2016-08-22 01:45:49 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27155>
+{'city': u'WHEATON', 'zip_code': u'56296', 'zip_percent': 100.0}
+2016-08-22 01:45:52 [scrapy] DEBUG: Crawled (200) <GET https://www.melissadata.com/lookups/countyzip.asp?fips=27153> (referer: https://www.melissadata.com/lookups/countyzip.asp?state=MN27Minnesota)
+2016-08-22 01:45:52 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27153>
+{'city': u'BURTRUM', 'zip_code': u'56318', 'zip_percent': 100.0}
+2016-08-22 01:45:52 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27153>
+{'city': u'CARLOS', 'zip_code': u'56319', 'zip_percent': 19.3}
+2016-08-22 01:45:52 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27153>
+{'city': u'GREY EAGLE', 'zip_code': u'56336', 'zip_percent': 99.3}
+2016-08-22 01:45:52 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27153>
+{'city': u'LONG PRAIRIE', 'zip_code': u'56347', 'zip_percent': 99.0}
+2016-08-22 01:45:52 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27153>
+{'city': u'OSAKIS', 'zip_code': u'56360', 'zip_percent': 51.8}
+2016-08-22 01:45:52 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27153>
+{'city': u'SAUK CENTRE', 'zip_code': u'56378', 'zip_percent': 19.5}
+2016-08-22 01:45:52 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27153>
+{'city': u'SWANVILLE', 'zip_code': u'56382', 'zip_percent': 39.2}
+2016-08-22 01:45:52 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27153>
+{'city': u'WEST UNION', 'zip_code': u'56389', 'zip_percent': 100.0}
+2016-08-22 01:45:52 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27153>
+{'city': u'ALDRICH', 'zip_code': u'56434', 'zip_percent': 60.3}
+2016-08-22 01:45:52 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27153>
+{'city': u'BERTHA', 'zip_code': u'56437', 'zip_percent': 83.1}
+2016-08-22 01:45:52 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27153>
+{'city': u'BROWERVILLE', 'zip_code': u'56438', 'zip_percent': 100.0}
+2016-08-22 01:45:52 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27153>
+{'city': u'CLARISSA', 'zip_code': u'56440', 'zip_percent': 100.0}
+2016-08-22 01:45:52 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27153>
+{'city': u'CUSHING', 'zip_code': u'56443', 'zip_percent': 22.2}
+2016-08-22 01:45:52 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27153>
+{'city': u'EAGLE BEND', 'zip_code': u'56446', 'zip_percent': 92.8}
+2016-08-22 01:45:52 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27153>
+{'city': u'HEWITT', 'zip_code': u'56453', 'zip_percent': 80.6}
+2016-08-22 01:45:52 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27153>
+{'city': u'MOTLEY', 'zip_code': u'56466', 'zip_percent': 11.3}
+2016-08-22 01:45:52 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27153>
+{'city': u'STAPLES', 'zip_code': u'56479', 'zip_percent': 67.0}
+2016-08-22 01:45:52 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27153>
+{'city': u'VERNDALE', 'zip_code': u'56481', 'zip_percent': 19.4}
+2016-08-22 01:45:56 [scrapy] DEBUG: Crawled (200) <GET https://www.melissadata.com/lookups/countyzip.asp?fips=27151> (referer: https://www.melissadata.com/lookups/countyzip.asp?state=MN27Minnesota)
+2016-08-22 01:45:56 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27151>
+{'city': u'APPLETON', 'zip_code': u'56208', 'zip_percent': 94.7}
+2016-08-22 01:45:56 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27151>
+{'city': u'BENSON', 'zip_code': u'56215', 'zip_percent': 95.6}
+2016-08-22 01:45:56 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27151>
+{'city': u'CLONTARF', 'zip_code': u'56226', 'zip_percent': 100.0}
+2016-08-22 01:45:56 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27151>
+{'city': u'DANVERS', 'zip_code': u'56231', 'zip_percent': 100.0}
+2016-08-22 01:45:56 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27151>
+{'city': u'HOLLOWAY', 'zip_code': u'56249', 'zip_percent': 100.0}
+2016-08-22 01:45:56 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27151>
+{'city': u'KERKHOVEN', 'zip_code': u'56252', 'zip_percent': 9.7}
+2016-08-22 01:45:56 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27151>
+{'city': u'MILAN', 'zip_code': u'56262', 'zip_percent': 16.3}
+2016-08-22 01:45:56 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27151>
+{'city': u'MURDOCK', 'zip_code': u'56271', 'zip_percent': 84.4}
+2016-08-22 01:45:56 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27151>
+{'city': u'SUNBURG', 'zip_code': u'56289', 'zip_percent': 11.9}
+2016-08-22 01:46:01 [scrapy] DEBUG: Crawled (200) <GET https://www.melissadata.com/lookups/countyzip.asp?fips=27149> (referer: https://www.melissadata.com/lookups/countyzip.asp?state=MN27Minnesota)
+2016-08-22 01:46:01 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27149>
+{'city': u'ALBERTA', 'zip_code': u'56207', 'zip_percent': 100.0}
+2016-08-22 01:46:01 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27149>
+{'city': u'CHOKIO', 'zip_code': u'56221', 'zip_percent': 90.0}
+2016-08-22 01:46:01 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27149>
+{'city': u'DONNELLY', 'zip_code': u'56235', 'zip_percent': 3.4}
+2016-08-22 01:46:01 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27149>
+{'city': u'HANCOCK', 'zip_code': u'56244', 'zip_percent': 79.6}
+2016-08-22 01:46:01 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27149>
+{'city': u'MORRIS', 'zip_code': u'56267', 'zip_percent': 100.0}
+2016-08-22 01:46:01 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27149>
+{'city': u'CYRUS', 'zip_code': u'56323', 'zip_percent': 12.0}
+2016-08-22 01:46:01 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27149>
+{'city': u'KENSINGTON', 'zip_code': u'56343', 'zip_percent': 6.9}
+2016-08-22 01:46:04 [scrapy] DEBUG: Crawled (200) <GET https://www.melissadata.com/lookups/countyzip.asp?fips=27147> (referer: https://www.melissadata.com/lookups/countyzip.asp?state=MN27Minnesota)
+2016-08-22 01:46:05 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27147>
+{'city': u'MEDFORD', 'zip_code': u'55049', 'zip_percent': 90.6}
+2016-08-22 01:46:05 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27147>
+{'city': u'OWATONNA', 'zip_code': u'55060', 'zip_percent': 100.0}
+2016-08-22 01:46:05 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27147>
+{'city': u'BLOOMING PRAIRIE', 'zip_code': u'55917', 'zip_percent': 69.8}
+2016-08-22 01:46:05 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27147>
+{'city': u'CLAREMONT', 'zip_code': u'55924', 'zip_percent': 26.6}
+2016-08-22 01:46:05 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27147>
+{'city': u'ELLENDALE', 'zip_code': u'56026', 'zip_percent': 70.7}
+2016-08-22 01:46:05 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27147>
+{'city': u'HOPE', 'zip_code': u'56046', 'zip_percent': 100.0}
+2016-08-22 01:46:05 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27147>
+{'city': u'WASECA', 'zip_code': u'56093', 'zip_percent': 3.2}
+2016-08-22 01:46:09 [scrapy] DEBUG: Crawled (200) <GET https://www.melissadata.com/lookups/countyzip.asp?fips=27145> (referer: https://www.melissadata.com/lookups/countyzip.asp?state=MN27Minnesota)
+2016-08-22 01:46:09 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27145>
+{'city': u'CLEARWATER', 'zip_code': u'55320', 'zip_percent': 37.2}
+2016-08-22 01:46:09 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27145>
+{'city': u'EDEN VALLEY', 'zip_code': u'55329', 'zip_percent': 43.5}
+2016-08-22 01:46:09 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27145>
+{'city': u'KIMBALL', 'zip_code': u'55353', 'zip_percent': 76.8}
+2016-08-22 01:46:09 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27145>
+{'city': u'SOUTH HAVEN', 'zip_code': u'55382', 'zip_percent': 42.9}
+2016-08-22 01:46:09 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27145>
+{'city': u'WATKINS', 'zip_code': u'55389', 'zip_percent': 19.3}
+2016-08-22 01:46:09 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27145>
+{'city': u'SAINT CLOUD', 'zip_code': u'56301', 'zip_percent': 100.0}
+2016-08-22 01:46:09 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27145>
+{'city': u'SAINT CLOUD', 'zip_code': u'56302', 'zip_percent': 100.0}
+2016-08-22 01:46:09 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27145>
+{'city': u'SAINT CLOUD', 'zip_code': u'56303', 'zip_percent': 100.0}
+2016-08-22 01:46:09 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27145>
+{'city': u'ALBANY', 'zip_code': u'56307', 'zip_percent': 100.0}
+2016-08-22 01:46:09 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27145>
+{'city': u'AVON', 'zip_code': u'56310', 'zip_percent': 100.0}
+2016-08-22 01:46:09 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27145>
+{'city': u'BELGRADE', 'zip_code': u'56312', 'zip_percent': 72.0}
+2016-08-22 01:46:09 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27145>
+{'city': u'BROOTEN', 'zip_code': u'56316', 'zip_percent': 90.4}
+2016-08-22 01:46:09 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27145>
+{'city': u'COLD SPRING', 'zip_code': u'56320', 'zip_percent': 100.0}
+2016-08-22 01:46:09 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27145>
+{'city': u'COLLEGEVILLE', 'zip_code': u'56321', 'zip_percent': 100.0}
+2016-08-22 01:46:09 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27145>
+{'city': u'ELROSA', 'zip_code': u'56325', 'zip_percent': 100.0}
+2016-08-22 01:46:09 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27145>
+{'city': u'FREEPORT', 'zip_code': u'56331', 'zip_percent': 98.7}
+2016-08-22 01:46:09 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27145>
+{'city': u'GREENWALD', 'zip_code': u'56335', 'zip_percent': 100.0}
+2016-08-22 01:46:09 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27145>
+{'city': u'HOLDINGFORD', 'zip_code': u'56340', 'zip_percent': 76.8}
+2016-08-22 01:46:09 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27145>
+{'city': u'MELROSE', 'zip_code': u'56352', 'zip_percent': 100.0}
+2016-08-22 01:46:09 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27145>
+{'city': u'NEW MUNICH', 'zip_code': u'56356', 'zip_percent': 100.0}
+2016-08-22 01:46:09 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27145>
+{'city': u'PAYNESVILLE', 'zip_code': u'56362', 'zip_percent': 90.4}
+2016-08-22 01:46:09 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27145>
+{'city': u'RICE', 'zip_code': u'56367', 'zip_percent': 15.9}
+2016-08-22 01:46:09 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27145>
+{'city': u'RICHMOND', 'zip_code': u'56368', 'zip_percent': 100.0}
+2016-08-22 01:46:09 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27145>
+{'city': u'ROCKVILLE', 'zip_code': u'56369', 'zip_percent': 100.0}
+2016-08-22 01:46:09 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27145>
+{'city': u'ROSCOE', 'zip_code': u'56371', 'zip_percent': 100.0}
+2016-08-22 01:46:09 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27145>
+{'city': u'SAINT CLOUD', 'zip_code': u'56372', 'zip_percent': 100.0}
+2016-08-22 01:46:09 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27145>
+{'city': u'SAINT JOSEPH', 'zip_code': u'56374', 'zip_percent': 100.0}
+2016-08-22 01:46:09 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27145>
+{'city': u'SAINT STEPHEN', 'zip_code': u'56375', 'zip_percent': 100.0}
+2016-08-22 01:46:09 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27145>
+{'city': u'SAINT MARTIN', 'zip_code': u'56376', 'zip_percent': 100.0}
+2016-08-22 01:46:09 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27145>
+{'city': u'SARTELL', 'zip_code': u'56377', 'zip_percent': 84.9}
+2016-08-22 01:46:09 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27145>
+{'city': u'SAUK CENTRE', 'zip_code': u'56378', 'zip_percent': 80.5}
+2016-08-22 01:46:09 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27145>
+{'city': u'VILLARD', 'zip_code': u'56385', 'zip_percent': 36.2}
+2016-08-22 01:46:09 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27145>
+{'city': u'WAITE PARK', 'zip_code': u'56387', 'zip_percent': 100.0}
+2016-08-22 01:46:09 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27145>
+{'city': u'WAITE PARK', 'zip_code': u'56388', 'zip_percent': 100.0}
+2016-08-22 01:46:09 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27145>
+{'city': u'SAINT CLOUD', 'zip_code': u'56393', 'zip_percent': 100.0}
+2016-08-22 01:46:09 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27145>
+{'city': u'SAINT CLOUD', 'zip_code': u'56395', 'zip_percent': 100.0}
+2016-08-22 01:46:09 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27145>
+{'city': u'SAINT CLOUD', 'zip_code': u'56396', 'zip_percent': 100.0}
+2016-08-22 01:46:09 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27145>
+{'city': u'SAINT CLOUD', 'zip_code': u'56397', 'zip_percent': 100.0}
+2016-08-22 01:46:09 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27145>
+{'city': u'SAINT CLOUD', 'zip_code': u'56398', 'zip_percent': 100.0}
+2016-08-22 01:46:09 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27145>
+{'city': u'SAINT CLOUD', 'zip_code': u'56399', 'zip_percent': 100.0}
+2016-08-22 01:46:13 [scrapy] DEBUG: Crawled (200) <GET https://www.melissadata.com/lookups/countyzip.asp?fips=27143> (referer: https://www.melissadata.com/lookups/countyzip.asp?state=MN27Minnesota)
+2016-08-22 01:46:13 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27143>
+{'city': u'ARLINGTON', 'zip_code': u'55307', 'zip_percent': 100.0}
+2016-08-22 01:46:13 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27143>
+{'city': u'BUFFALO LAKE', 'zip_code': u'55314', 'zip_percent': 15.1}
+2016-08-22 01:46:13 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27143>
+{'city': u'GAYLORD', 'zip_code': u'55334', 'zip_percent': 97.3}
+2016-08-22 01:46:13 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27143>
+{'city': u'GIBBON', 'zip_code': u'55335', 'zip_percent': 92.6}
+2016-08-22 01:46:13 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27143>
+{'city': u'GLENCOE', 'zip_code': u'55336', 'zip_percent': 6.7}
+2016-08-22 01:46:13 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27143>
+{'city': u'GREEN ISLE', 'zip_code': u'55338', 'zip_percent': 96.8}
+2016-08-22 01:46:13 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27143>
+{'city': u'HAMBURG', 'zip_code': u'55339', 'zip_percent': 24.8}
+2016-08-22 01:46:13 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27143>
+{'city': u'HECTOR', 'zip_code': u'55342', 'zip_percent': 4.0}
+2016-08-22 01:46:13 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27143>
+{'city': u'NEW AUBURN', 'zip_code': u'55366', 'zip_percent': 100.0}
+2016-08-22 01:46:13 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27143>
+{'city': u'STEWART', 'zip_code': u'55385', 'zip_percent': 9.6}
+2016-08-22 01:46:13 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27143>
+{'city': u'WINTHROP', 'zip_code': u'55396', 'zip_percent': 100.0}
+2016-08-22 01:46:13 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27143>
+{'city': u'BELLE PLAINE', 'zip_code': u'56011', 'zip_percent': 11.1}
+2016-08-22 01:46:13 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27143>
+{'city': u'HENDERSON', 'zip_code': u'56044', 'zip_percent': 83.6}
+2016-08-22 01:46:13 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27143>
+{'city': u'LAFAYETTE', 'zip_code': u'56054', 'zip_percent': 11.8}
+2016-08-22 01:46:13 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27143>
+{'city': u'LE SUEUR', 'zip_code': u'56058', 'zip_percent': 11.8}
+2016-08-22 01:46:17 [scrapy] DEBUG: Crawled (200) <GET https://www.melissadata.com/lookups/countyzip.asp?fips=27141> (referer: https://www.melissadata.com/lookups/countyzip.asp?state=MN27Minnesota)
+2016-08-22 01:46:17 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27141>
+{'city': u'BECKER', 'zip_code': u'55308', 'zip_percent': 100.0}
+2016-08-22 01:46:17 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27141>
+{'city': u'BIG LAKE', 'zip_code': u'55309', 'zip_percent': 100.0}
+2016-08-22 01:46:17 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27141>
+{'city': u'CLEAR LAKE', 'zip_code': u'55319', 'zip_percent': 100.0}
+2016-08-22 01:46:17 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27141>
+{'city': u'ELK RIVER', 'zip_code': u'55330', 'zip_percent': 76.2}
+2016-08-22 01:46:17 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27141>
+{'city': u'PRINCETON', 'zip_code': u'55371', 'zip_percent': 24.5}
+2016-08-22 01:46:17 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27141>
+{'city': u'SANTIAGO', 'zip_code': u'55377', 'zip_percent': 100.0}
+2016-08-22 01:46:17 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27141>
+{'city': u'ZIMMERMAN', 'zip_code': u'55398', 'zip_percent': 90.5}
+2016-08-22 01:46:17 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27141>
+{'city': u'SAINT CLOUD', 'zip_code': u'56304', 'zip_percent': 49.9}
+2016-08-22 01:46:20 [scrapy] DEBUG: Crawled (200) <GET https://www.melissadata.com/lookups/countyzip.asp?fips=27139> (referer: https://www.melissadata.com/lookups/countyzip.asp?state=MN27Minnesota)
+2016-08-22 01:46:20 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27139>
+{'city': u'ELKO NEW MARKET', 'zip_code': u'55020', 'zip_percent': 100.0}
+2016-08-22 01:46:20 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27139>
+{'city': u'LAKEVILLE', 'zip_code': u'55044', 'zip_percent': 12.8}
+2016-08-22 01:46:20 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27139>
+{'city': u'ELKO NEW MARKET', 'zip_code': u'55054', 'zip_percent': 100.0}
+2016-08-22 01:46:20 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27139>
+{'city': u'WEBSTER', 'zip_code': u'55088', 'zip_percent': 29.1}
+2016-08-22 01:46:20 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27139>
+{'city': u'JORDAN', 'zip_code': u'55352', 'zip_percent': 100.0}
+2016-08-22 01:46:20 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27139>
+{'city': u'PRIOR LAKE', 'zip_code': u'55372', 'zip_percent': 100.0}
+2016-08-22 01:46:20 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27139>
+{'city': u'SAVAGE', 'zip_code': u'55378', 'zip_percent': 100.0}
+2016-08-22 01:46:20 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27139>
+{'city': u'SHAKOPEE', 'zip_code': u'55379', 'zip_percent': 100.0}
+2016-08-22 01:46:20 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27139>
+{'city': u'BELLE PLAINE', 'zip_code': u'56011', 'zip_percent': 83.0}
+2016-08-22 01:46:20 [scrapy] DEBUG: Scraped from <200 https://www.melissadata.com/lookups/countyzip.asp?fips=27139>
+{'city': u'NEW PRAGUE', 'zip_code': u'56071', 'zip_percent': 58.1}
+2016-08-22 01:46:24 [scrapy] DEBUG: Redirecting (302) to <GET https://www.melissadata.com/cgi-bin/subscribe.asp?Limit=UnRegLimit&cnt=81&wp=/lookups/countyzip.asp?> from <GET https://www.melissadata.com/lookups/countyzip.asp?fips=27137>
+2016-08-22 01:46:24 [scrapy] DEBUG: Forbidden by robots.txt: <GET https://www.melissadata.com/cgi-bin/subscribe.asp?Limit=UnRegLimit&cnt=81&wp=/lookups/countyzip.asp?>
+2016-08-22 01:46:27 [scrapy] DEBUG: Redirecting (302) to <GET https://www.melissadata.com/cgi-bin/subscribe.asp?Limit=UnRegLimit&cnt=82&wp=/lookups/countyzip.asp?> from <GET https://www.melissadata.com/lookups/countyzip.asp?fips=27135>
+2016-08-22 01:46:27 [scrapy] DEBUG: Forbidden by robots.txt: <GET https://www.melissadata.com/cgi-bin/subscribe.asp?Limit=UnRegLimit&cnt=82&wp=/lookups/countyzip.asp?>
+2016-08-22 01:46:31 [scrapy] DEBUG: Redirecting (302) to <GET https://www.melissadata.com/cgi-bin/subscribe.asp?Limit=UnRegLimit&cnt=83&wp=/lookups/countyzip.asp?> from <GET https://www.melissadata.com/lookups/countyzip.asp?fips=27133>
+2016-08-22 01:46:31 [scrapy] DEBUG: Forbidden by robots.txt: <GET https://www.melissadata.com/cgi-bin/subscribe.asp?Limit=UnRegLimit&cnt=83&wp=/lookups/countyzip.asp?>
+2016-08-22 01:46:34 [scrapy] INFO: Crawled 63 pages (at 13 pages/min), scraped 507 items (at 171 items/min)
+2016-08-22 01:46:35 [scrapy] DEBUG: Redirecting (302) to <GET https://www.melissadata.com/cgi-bin/subscribe.asp?Limit=UnRegLimit&cnt=84&wp=/lookups/countyzip.asp?> from <GET https://www.melissadata.com/lookups/countyzip.asp?fips=27131>
+2016-08-22 01:46:35 [scrapy] DEBUG: Forbidden by robots.txt: <GET https://www.melissadata.com/cgi-bin/subscribe.asp?Limit=UnRegLimit&cnt=84&wp=/lookups/countyzip.asp?>
+2016-08-22 01:46:39 [scrapy] DEBUG: Redirecting (302) to <GET https://www.melissadata.com/cgi-bin/subscribe.asp?Limit=UnRegLimit&cnt=85&wp=/lookups/countyzip.asp?> from <GET https://www.melissadata.com/lookups/countyzip.asp?fips=27129>
+2016-08-22 01:46:39 [scrapy] DEBUG: Forbidden by robots.txt: <GET https://www.melissadata.com/cgi-bin/subscribe.asp?Limit=UnRegLimit&cnt=85&wp=/lookups/countyzip.asp?>
+2016-08-22 01:46:42 [scrapy] DEBUG: Redirecting (302) to <GET https://www.melissadata.com/cgi-bin/subscribe.asp?Limit=UnRegLimit&cnt=86&wp=/lookups/countyzip.asp?> from <GET https://www.melissadata.com/lookups/countyzip.asp?fips=27127>
+2016-08-22 01:46:42 [scrapy] DEBUG: Forbidden by robots.txt: <GET https://www.melissadata.com/cgi-bin/subscribe.asp?Limit=UnRegLimit&cnt=86&wp=/lookups/countyzip.asp?>
+2016-08-22 01:46:46 [scrapy] DEBUG: Redirecting (302) to <GET https://www.melissadata.com/cgi-bin/subscribe.asp?Limit=UnRegLimit&cnt=87&wp=/lookups/countyzip.asp?> from <GET https://www.melissadata.com/lookups/countyzip.asp?fips=27125>
+2016-08-22 01:46:46 [scrapy] DEBUG: Forbidden by robots.txt: <GET https://www.melissadata.com/cgi-bin/subscribe.asp?Limit=UnRegLimit&cnt=87&wp=/lookups/countyzip.asp?>
+2016-08-22 01:46:51 [scrapy] DEBUG: Redirecting (302) to <GET https://www.melissadata.com/cgi-bin/subscribe.asp?Limit=UnRegLimit&cnt=88&wp=/lookups/countyzip.asp?> from <GET https://www.melissadata.com/lookups/countyzip.asp?fips=27123>
+2016-08-22 01:46:51 [scrapy] DEBUG: Forbidden by robots.txt: <GET https://www.melissadata.com/cgi-bin/subscribe.asp?Limit=UnRegLimit&cnt=88&wp=/lookups/countyzip.asp?>
+2016-08-22 01:46:55 [scrapy] DEBUG: Redirecting (302) to <GET https://www.melissadata.com/cgi-bin/subscribe.asp?Limit=UnRegLimit&cnt=89&wp=/lookups/countyzip.asp?> from <GET https://www.melissadata.com/lookups/countyzip.asp?fips=27121>
+2016-08-22 01:46:55 [scrapy] DEBUG: Forbidden by robots.txt: <GET https://www.melissadata.com/cgi-bin/subscribe.asp?Limit=UnRegLimit&cnt=89&wp=/lookups/countyzip.asp?>
+2016-08-22 01:46:58 [scrapy] DEBUG: Redirecting (302) to <GET https://www.melissadata.com/cgi-bin/subscribe.asp?Limit=UnRegLimit&cnt=90&wp=/lookups/countyzip.asp?> from <GET https://www.melissadata.com/lookups/countyzip.asp?fips=27119>
+2016-08-22 01:46:58 [scrapy] DEBUG: Forbidden by robots.txt: <GET https://www.melissadata.com/cgi-bin/subscribe.asp?Limit=UnRegLimit&cnt=90&wp=/lookups/countyzip.asp?>
+2016-08-22 01:47:02 [scrapy] DEBUG: Redirecting (302) to <GET https://www.melissadata.com/cgi-bin/subscribe.asp?Limit=UnRegLimit&cnt=91&wp=/lookups/countyzip.asp?> from <GET https://www.melissadata.com/lookups/countyzip.asp?fips=27117>
+2016-08-22 01:47:02 [scrapy] DEBUG: Forbidden by robots.txt: <GET https://www.melissadata.com/cgi-bin/subscribe.asp?Limit=UnRegLimit&cnt=91&wp=/lookups/countyzip.asp?>
+2016-08-22 01:47:06 [scrapy] DEBUG: Redirecting (302) to <GET https://www.melissadata.com/cgi-bin/subscribe.asp?Limit=UnRegLimit&cnt=92&wp=/lookups/countyzip.asp?> from <GET https://www.melissadata.com/lookups/countyzip.asp?fips=27115>
+2016-08-22 01:47:06 [scrapy] DEBUG: Forbidden by robots.txt: <GET https://www.melissadata.com/cgi-bin/subscribe.asp?Limit=UnRegLimit&cnt=92&wp=/lookups/countyzip.asp?>
+2016-08-22 01:47:10 [scrapy] DEBUG: Redirecting (302) to <GET https://www.melissadata.com/cgi-bin/subscribe.asp?Limit=UnRegLimit&cnt=93&wp=/lookups/countyzip.asp?> from <GET https://www.melissadata.com/lookups/countyzip.asp?fips=27113>
+2016-08-22 01:47:10 [scrapy] DEBUG: Forbidden by robots.txt: <GET https://www.melissadata.com/cgi-bin/subscribe.asp?Limit=UnRegLimit&cnt=93&wp=/lookups/countyzip.asp?>
+2016-08-22 01:47:14 [scrapy] DEBUG: Redirecting (302) to <GET https://www.melissadata.com/cgi-bin/subscribe.asp?Limit=UnRegLimit&cnt=94&wp=/lookups/countyzip.asp?> from <GET https://www.melissadata.com/lookups/countyzip.asp?fips=27111>
+2016-08-22 01:47:14 [scrapy] DEBUG: Forbidden by robots.txt: <GET https://www.melissadata.com/cgi-bin/subscribe.asp?Limit=UnRegLimit&cnt=94&wp=/lookups/countyzip.asp?>
+2016-08-22 01:47:17 [scrapy] DEBUG: Redirecting (302) to <GET https://www.melissadata.com/cgi-bin/subscribe.asp?Limit=UnRegLimit&cnt=95&wp=/lookups/countyzip.asp?> from <GET https://www.melissadata.com/lookups/countyzip.asp?fips=27109>
+2016-08-22 01:47:17 [scrapy] DEBUG: Forbidden by robots.txt: <GET https://www.melissadata.com/cgi-bin/subscribe.asp?Limit=UnRegLimit&cnt=95&wp=/lookups/countyzip.asp?>
+2016-08-22 01:47:21 [scrapy] DEBUG: Redirecting (302) to <GET https://www.melissadata.com/cgi-bin/subscribe.asp?Limit=UnRegLimit&cnt=96&wp=/lookups/countyzip.asp?> from <GET https://www.melissadata.com/lookups/countyzip.asp?fips=27107>
+2016-08-22 01:47:21 [scrapy] DEBUG: Forbidden by robots.txt: <GET https://www.melissadata.com/cgi-bin/subscribe.asp?Limit=UnRegLimit&cnt=96&wp=/lookups/countyzip.asp?>
+2016-08-22 01:47:25 [scrapy] DEBUG: Redirecting (302) to <GET https://www.melissadata.com/cgi-bin/subscribe.asp?Limit=UnRegLimit&cnt=97&wp=/lookups/countyzip.asp?> from <GET https://www.melissadata.com/lookups/countyzip.asp?fips=27105>
+2016-08-22 01:47:25 [scrapy] DEBUG: Forbidden by robots.txt: <GET https://www.melissadata.com/cgi-bin/subscribe.asp?Limit=UnRegLimit&cnt=97&wp=/lookups/countyzip.asp?>
+2016-08-22 01:47:29 [scrapy] DEBUG: Redirecting (302) to <GET https://www.melissadata.com/cgi-bin/subscribe.asp?Limit=UnRegLimit&cnt=98&wp=/lookups/countyzip.asp?> from <GET https://www.melissadata.com/lookups/countyzip.asp?fips=27103>
+2016-08-22 01:47:29 [scrapy] DEBUG: Forbidden by robots.txt: <GET https://www.melissadata.com/cgi-bin/subscribe.asp?Limit=UnRegLimit&cnt=98&wp=/lookups/countyzip.asp?>
+2016-08-22 01:47:32 [scrapy] DEBUG: Redirecting (302) to <GET https://www.melissadata.com/cgi-bin/subscribe.asp?Limit=UnRegLimit&cnt=99&wp=/lookups/countyzip.asp?> from <GET https://www.melissadata.com/lookups/countyzip.asp?fips=27101>
+2016-08-22 01:47:32 [scrapy] DEBUG: Forbidden by robots.txt: <GET https://www.melissadata.com/cgi-bin/subscribe.asp?Limit=UnRegLimit&cnt=99&wp=/lookups/countyzip.asp?>
+2016-08-22 01:47:34 [scrapy] INFO: Crawled 63 pages (at 0 pages/min), scraped 507 items (at 0 items/min)
+2016-08-22 01:47:34 [scrapy] DEBUG: Redirecting (302) to <GET https://www.melissadata.com/cgi-bin/subscribe.asp?Limit=UnRegLimit&cnt=100&wp=/lookups/countyzip.asp?> from <GET https://www.melissadata.com/lookups/countyzip.asp?fips=27099>
+2016-08-22 01:47:34 [scrapy] DEBUG: Forbidden by robots.txt: <GET https://www.melissadata.com/cgi-bin/subscribe.asp?Limit=UnRegLimit&cnt=100&wp=/lookups/countyzip.asp?>
+2016-08-22 01:47:39 [scrapy] DEBUG: Redirecting (302) to <GET https://www.melissadata.com/cgi-bin/subscribe.asp?Limit=UnRegLimit&cnt=101&wp=/lookups/countyzip.asp?> from <GET https://www.melissadata.com/lookups/countyzip.asp?fips=27097>
+2016-08-22 01:47:39 [scrapy] DEBUG: Forbidden by robots.txt: <GET https://www.melissadata.com/cgi-bin/subscribe.asp?Limit=UnRegLimit&cnt=101&wp=/lookups/countyzip.asp?>
+2016-08-22 01:47:43 [scrapy] DEBUG: Redirecting (302) to <GET https://www.melissadata.com/cgi-bin/subscribe.asp?Limit=UnRegLimit&cnt=102&wp=/lookups/countyzip.asp?> from <GET https://www.melissadata.com/lookups/countyzip.asp?fips=27095>
+2016-08-22 01:47:43 [scrapy] DEBUG: Forbidden by robots.txt: <GET https://www.melissadata.com/cgi-bin/subscribe.asp?Limit=UnRegLimit&cnt=102&wp=/lookups/countyzip.asp?>
+2016-08-22 01:47:47 [scrapy] DEBUG: Redirecting (302) to <GET https://www.melissadata.com/cgi-bin/subscribe.asp?Limit=UnRegLimit&cnt=103&wp=/lookups/countyzip.asp?> from <GET https://www.melissadata.com/lookups/countyzip.asp?fips=27093>
+2016-08-22 01:47:47 [scrapy] DEBUG: Forbidden by robots.txt: <GET https://www.melissadata.com/cgi-bin/subscribe.asp?Limit=UnRegLimit&cnt=103&wp=/lookups/countyzip.asp?>
+2016-08-22 01:47:50 [scrapy] DEBUG: Redirecting (302) to <GET https://www.melissadata.com/cgi-bin/subscribe.asp?Limit=UnRegLimit&cnt=104&wp=/lookups/countyzip.asp?> from <GET https://www.melissadata.com/lookups/countyzip.asp?fips=27085>
+2016-08-22 01:47:50 [scrapy] DEBUG: Forbidden by robots.txt: <GET https://www.melissadata.com/cgi-bin/subscribe.asp?Limit=UnRegLimit&cnt=104&wp=/lookups/countyzip.asp?>
+2016-08-22 01:47:52 [scrapy] DEBUG: Redirecting (302) to <GET https://www.melissadata.com/cgi-bin/subscribe.asp?Limit=UnRegLimit&cnt=105&wp=/lookups/countyzip.asp?> from <GET https://www.melissadata.com/lookups/countyzip.asp?fips=27091>
+2016-08-22 01:47:52 [scrapy] DEBUG: Forbidden by robots.txt: <GET https://www.melissadata.com/cgi-bin/subscribe.asp?Limit=UnRegLimit&cnt=105&wp=/lookups/countyzip.asp?>
+2016-08-22 01:47:55 [scrapy] DEBUG: Redirecting (302) to <GET https://www.melissadata.com/cgi-bin/subscribe.asp?Limit=UnRegLimit&cnt=106&wp=/lookups/countyzip.asp?> from <GET https://www.melissadata.com/lookups/countyzip.asp?fips=27089>
+2016-08-22 01:47:55 [scrapy] DEBUG: Forbidden by robots.txt: <GET https://www.melissadata.com/cgi-bin/subscribe.asp?Limit=UnRegLimit&cnt=106&wp=/lookups/countyzip.asp?>
+2016-08-22 01:47:58 [scrapy] DEBUG: Redirecting (302) to <GET https://www.melissadata.com/cgi-bin/subscribe.asp?Limit=UnRegLimit&cnt=107&wp=/lookups/countyzip.asp?> from <GET https://www.melissadata.com/lookups/countyzip.asp?fips=27087>
+2016-08-22 01:47:58 [scrapy] DEBUG: Forbidden by robots.txt: <GET https://www.melissadata.com/cgi-bin/subscribe.asp?Limit=UnRegLimit&cnt=107&wp=/lookups/countyzip.asp?>
+2016-08-22 01:48:02 [scrapy] DEBUG: Redirecting (302) to <GET https://www.melissadata.com/cgi-bin/subscribe.asp?Limit=UnRegLimit&cnt=108&wp=/lookups/countyzip.asp?> from <GET https://www.melissadata.com/lookups/countyzip.asp?fips=27083>
+2016-08-22 01:48:02 [scrapy] DEBUG: Forbidden by robots.txt: <GET https://www.melissadata.com/cgi-bin/subscribe.asp?Limit=UnRegLimit&cnt=108&wp=/lookups/countyzip.asp?>
+2016-08-22 01:48:07 [scrapy] DEBUG: Redirecting (302) to <GET https://www.melissadata.com/cgi-bin/subscribe.asp?Limit=UnRegLimit&cnt=109&wp=/lookups/countyzip.asp?> from <GET https://www.melissadata.com/lookups/countyzip.asp?fips=27081>
+2016-08-22 01:48:07 [scrapy] DEBUG: Forbidden by robots.txt: <GET https://www.melissadata.com/cgi-bin/subscribe.asp?Limit=UnRegLimit&cnt=109&wp=/lookups/countyzip.asp?>
+2016-08-22 01:48:10 [scrapy] DEBUG: Redirecting (302) to <GET https://www.melissadata.com/cgi-bin/subscribe.asp?Limit=UnRegLimit&cnt=110&wp=/lookups/countyzip.asp?> from <GET https://www.melissadata.com/lookups/countyzip.asp?fips=27079>
+2016-08-22 01:48:10 [scrapy] DEBUG: Forbidden by robots.txt: <GET https://www.melissadata.com/cgi-bin/subscribe.asp?Limit=UnRegLimit&cnt=110&wp=/lookups/countyzip.asp?>
+2016-08-22 01:48:14 [scrapy] DEBUG: Redirecting (302) to <GET https://www.melissadata.com/cgi-bin/subscribe.asp?Limit=UnRegLimit&cnt=111&wp=/lookups/countyzip.asp?> from <GET https://www.melissadata.com/lookups/countyzip.asp?fips=27077>
+2016-08-22 01:48:14 [scrapy] DEBUG: Forbidden by robots.txt: <GET https://www.melissadata.com/cgi-bin/subscribe.asp?Limit=UnRegLimit&cnt=111&wp=/lookups/countyzip.asp?>
+2016-08-22 01:48:17 [scrapy] DEBUG: Redirecting (302) to <GET https://www.melissadata.com/cgi-bin/subscribe.asp?Limit=UnRegLimit&cnt=112&wp=/lookups/countyzip.asp?> from <GET https://www.melissadata.com/lookups/countyzip.asp?fips=27075>
+2016-08-22 01:48:17 [scrapy] DEBUG: Forbidden by robots.txt: <GET https://www.melissadata.com/cgi-bin/subscribe.asp?Limit=UnRegLimit&cnt=112&wp=/lookups/countyzip.asp?>
+2016-08-22 01:48:21 [scrapy] DEBUG: Redirecting (302) to <GET https://www.melissadata.com/cgi-bin/subscribe.asp?Limit=UnRegLimit&cnt=113&wp=/lookups/countyzip.asp?> from <GET https://www.melissadata.com/lookups/countyzip.asp?fips=27073>
+2016-08-22 01:48:21 [scrapy] DEBUG: Forbidden by robots.txt: <GET https://www.melissadata.com/cgi-bin/subscribe.asp?Limit=UnRegLimit&cnt=113&wp=/lookups/countyzip.asp?>
+2016-08-22 01:48:25 [scrapy] DEBUG: Redirecting (302) to <GET https://www.melissadata.com/cgi-bin/subscribe.asp?Limit=UnRegLimit&cnt=114&wp=/lookups/countyzip.asp?> from <GET https://www.melissadata.com/lookups/countyzip.asp?fips=27071>
+2016-08-22 01:48:25 [scrapy] DEBUG: Forbidden by robots.txt: <GET https://www.melissadata.com/cgi-bin/subscribe.asp?Limit=UnRegLimit&cnt=114&wp=/lookups/countyzip.asp?>
+2016-08-22 01:48:28 [scrapy] DEBUG: Redirecting (302) to <GET https://www.melissadata.com/cgi-bin/subscribe.asp?Limit=UnRegLimit&cnt=115&wp=/lookups/countyzip.asp?> from <GET https://www.melissadata.com/lookups/countyzip.asp?fips=27069>
+2016-08-22 01:48:28 [scrapy] DEBUG: Forbidden by robots.txt: <GET https://www.melissadata.com/cgi-bin/subscribe.asp?Limit=UnRegLimit&cnt=115&wp=/lookups/countyzip.asp?>
+2016-08-22 01:48:31 [scrapy] DEBUG: Redirecting (302) to <GET https://www.melissadata.com/cgi-bin/subscribe.asp?Limit=UnRegLimit&cnt=116&wp=/lookups/countyzip.asp?> from <GET https://www.melissadata.com/lookups/countyzip.asp?fips=27067>
+2016-08-22 01:48:31 [scrapy] DEBUG: Forbidden by robots.txt: <GET https://www.melissadata.com/cgi-bin/subscribe.asp?Limit=UnRegLimit&cnt=116&wp=/lookups/countyzip.asp?>
+2016-08-22 01:48:34 [scrapy] INFO: Crawled 63 pages (at 0 pages/min), scraped 507 items (at 0 items/min)
+2016-08-22 01:48:35 [scrapy] DEBUG: Redirecting (302) to <GET https://www.melissadata.com/cgi-bin/subscribe.asp?Limit=UnRegLimit&cnt=117&wp=/lookups/countyzip.asp?> from <GET https://www.melissadata.com/lookups/countyzip.asp?fips=27065>
+2016-08-22 01:48:35 [scrapy] DEBUG: Forbidden by robots.txt: <GET https://www.melissadata.com/cgi-bin/subscribe.asp?Limit=UnRegLimit&cnt=117&wp=/lookups/countyzip.asp?>
+2016-08-22 01:48:38 [scrapy] DEBUG: Redirecting (302) to <GET https://www.melissadata.com/cgi-bin/subscribe.asp?Limit=UnRegLimit&cnt=118&wp=/lookups/countyzip.asp?> from <GET https://www.melissadata.com/lookups/countyzip.asp?fips=27063>
+2016-08-22 01:48:38 [scrapy] DEBUG: Forbidden by robots.txt: <GET https://www.melissadata.com/cgi-bin/subscribe.asp?Limit=UnRegLimit&cnt=118&wp=/lookups/countyzip.asp?>
+2016-08-22 01:48:42 [scrapy] DEBUG: Redirecting (302) to <GET https://www.melissadata.com/cgi-bin/subscribe.asp?Limit=UnRegLimit&cnt=119&wp=/lookups/countyzip.asp?> from <GET https://www.melissadata.com/lookups/countyzip.asp?fips=27061>
+2016-08-22 01:48:42 [scrapy] DEBUG: Forbidden by robots.txt: <GET https://www.melissadata.com/cgi-bin/subscribe.asp?Limit=UnRegLimit&cnt=119&wp=/lookups/countyzip.asp?>
+2016-08-22 01:48:45 [scrapy] DEBUG: Redirecting (302) to <GET https://www.melissadata.com/cgi-bin/subscribe.asp?Limit=UnRegLimit&cnt=120&wp=/lookups/countyzip.asp?> from <GET https://www.melissadata.com/lookups/countyzip.asp?fips=27059>
+2016-08-22 01:48:45 [scrapy] DEBUG: Forbidden by robots.txt: <GET https://www.melissadata.com/cgi-bin/subscribe.asp?Limit=UnRegLimit&cnt=120&wp=/lookups/countyzip.asp?>
+2016-08-22 01:48:49 [scrapy] DEBUG: Redirecting (302) to <GET https://www.melissadata.com/cgi-bin/subscribe.asp?Limit=UnRegLimit&cnt=121&wp=/lookups/countyzip.asp?> from <GET https://www.melissadata.com/lookups/countyzip.asp?fips=27057>
+2016-08-22 01:48:49 [scrapy] DEBUG: Forbidden by robots.txt: <GET https://www.melissadata.com/cgi-bin/subscribe.asp?Limit=UnRegLimit&cnt=121&wp=/lookups/countyzip.asp?>
+2016-08-22 01:48:53 [scrapy] DEBUG: Redirecting (302) to <GET https://www.melissadata.com/cgi-bin/subscribe.asp?Limit=UnRegLimit&cnt=122&wp=/lookups/countyzip.asp?> from <GET https://www.melissadata.com/lookups/countyzip.asp?fips=27055>
+2016-08-22 01:48:53 [scrapy] DEBUG: Forbidden by robots.txt: <GET https://www.melissadata.com/cgi-bin/subscribe.asp?Limit=UnRegLimit&cnt=122&wp=/lookups/countyzip.asp?>
+2016-08-22 01:48:54 [scrapy] DEBUG: Redirecting (302) to <GET https://www.melissadata.com/cgi-bin/subscribe.asp?Limit=UnRegLimit&cnt=123&wp=/lookups/countyzip.asp?> from <GET https://www.melissadata.com/lookups/countyzip.asp?fips=27053>
+2016-08-22 01:48:54 [scrapy] DEBUG: Forbidden by robots.txt: <GET https://www.melissadata.com/cgi-bin/subscribe.asp?Limit=UnRegLimit&cnt=123&wp=/lookups/countyzip.asp?>
+2016-08-22 01:48:59 [scrapy] DEBUG: Redirecting (302) to <GET https://www.melissadata.com/cgi-bin/subscribe.asp?Limit=UnRegLimit&cnt=124&wp=/lookups/countyzip.asp?> from <GET https://www.melissadata.com/lookups/countyzip.asp?fips=27051>
+2016-08-22 01:48:59 [scrapy] DEBUG: Forbidden by robots.txt: <GET https://www.melissadata.com/cgi-bin/subscribe.asp?Limit=UnRegLimit&cnt=124&wp=/lookups/countyzip.asp?>
+2016-08-22 01:49:02 [scrapy] DEBUG: Redirecting (302) to <GET https://www.melissadata.com/cgi-bin/subscribe.asp?Limit=UnRegLimit&cnt=125&wp=/lookups/countyzip.asp?> from <GET https://www.melissadata.com/lookups/countyzip.asp?fips=27049>
+2016-08-22 01:49:02 [scrapy] DEBUG: Forbidden by robots.txt: <GET https://www.melissadata.com/cgi-bin/subscribe.asp?Limit=UnRegLimit&cnt=125&wp=/lookups/countyzip.asp?>
+2016-08-22 01:49:06 [scrapy] DEBUG: Redirecting (302) to <GET https://www.melissadata.com/cgi-bin/subscribe.asp?Limit=UnRegLimit&cnt=126&wp=/lookups/countyzip.asp?> from <GET https://www.melissadata.com/lookups/countyzip.asp?fips=27047>
+2016-08-22 01:49:06 [scrapy] DEBUG: Forbidden by robots.txt: <GET https://www.melissadata.com/cgi-bin/subscribe.asp?Limit=UnRegLimit&cnt=126&wp=/lookups/countyzip.asp?>
+2016-08-22 01:49:12 [scrapy] DEBUG: Redirecting (302) to <GET https://www.melissadata.com/cgi-bin/subscribe.asp?Limit=UnRegLimit&cnt=127&wp=/lookups/countyzip.asp?> from <GET https://www.melissadata.com/lookups/countyzip.asp?fips=27045>
+2016-08-22 01:49:12 [scrapy] DEBUG: Forbidden by robots.txt: <GET https://www.melissadata.com/cgi-bin/subscribe.asp?Limit=UnRegLimit&cnt=127&wp=/lookups/countyzip.asp?>
+2016-08-22 01:49:15 [scrapy] DEBUG: Redirecting (302) to <GET https://www.melissadata.com/cgi-bin/subscribe.asp?Limit=UnRegLimit&cnt=128&wp=/lookups/countyzip.asp?> from <GET https://www.melissadata.com/lookups/countyzip.asp?fips=27043>
+2016-08-22 01:49:15 [scrapy] DEBUG: Forbidden by robots.txt: <GET https://www.melissadata.com/cgi-bin/subscribe.asp?Limit=UnRegLimit&cnt=128&wp=/lookups/countyzip.asp?>
+2016-08-22 01:49:19 [scrapy] DEBUG: Redirecting (302) to <GET https://www.melissadata.com/cgi-bin/subscribe.asp?Limit=UnRegLimit&cnt=129&wp=/lookups/countyzip.asp?> from <GET https://www.melissadata.com/lookups/countyzip.asp?fips=27041>
+2016-08-22 01:49:19 [scrapy] DEBUG: Forbidden by robots.txt: <GET https://www.melissadata.com/cgi-bin/subscribe.asp?Limit=UnRegLimit&cnt=129&wp=/lookups/countyzip.asp?>
+2016-08-22 01:49:23 [scrapy] DEBUG: Redirecting (302) to <GET https://www.melissadata.com/cgi-bin/subscribe.asp?Limit=UnRegLimit&cnt=130&wp=/lookups/countyzip.asp?> from <GET https://www.melissadata.com/lookups/countyzip.asp?fips=27039>
+2016-08-22 01:49:23 [scrapy] DEBUG: Forbidden by robots.txt: <GET https://www.melissadata.com/cgi-bin/subscribe.asp?Limit=UnRegLimit&cnt=130&wp=/lookups/countyzip.asp?>
+2016-08-22 01:49:27 [scrapy] DEBUG: Redirecting (302) to <GET https://www.melissadata.com/cgi-bin/subscribe.asp?Limit=UnRegLimit&cnt=131&wp=/lookups/countyzip.asp?> from <GET https://www.melissadata.com/lookups/countyzip.asp?fips=27037>
+2016-08-22 01:49:27 [scrapy] DEBUG: Forbidden by robots.txt: <GET https://www.melissadata.com/cgi-bin/subscribe.asp?Limit=UnRegLimit&cnt=131&wp=/lookups/countyzip.asp?>
+2016-08-22 01:49:31 [scrapy] DEBUG: Redirecting (302) to <GET https://www.melissadata.com/cgi-bin/subscribe.asp?Limit=UnRegLimit&cnt=132&wp=/lookups/countyzip.asp?> from <GET https://www.melissadata.com/lookups/countyzip.asp?fips=27035>
+2016-08-22 01:49:31 [scrapy] DEBUG: Forbidden by robots.txt: <GET https://www.melissadata.com/cgi-bin/subscribe.asp?Limit=UnRegLimit&cnt=132&wp=/lookups/countyzip.asp?>
+2016-08-22 01:49:33 [scrapy] INFO: Received SIGINT, shutting down gracefully. Send again to force 
+2016-08-22 01:49:33 [scrapy] INFO: Closing spider (shutdown)
+2016-08-22 01:49:34 [scrapy] INFO: Crawled 63 pages (at 0 pages/min), scraped 507 items (at 0 items/min)
+2016-08-22 01:49:35 [scrapy] INFO: Received SIGINT twice, forcing unclean shutdown
